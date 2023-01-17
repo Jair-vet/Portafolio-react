@@ -1,3 +1,4 @@
+import { Titulo } from "./Titulo";
 
 export const Navbar = () => {
 
