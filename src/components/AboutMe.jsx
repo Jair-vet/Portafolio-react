@@ -22,7 +22,7 @@ export const AboutMe = () => {
 
                 <div className="md:flex gap-2 bg-blackBg">
                    {/* datos personales */}
-                    <div className="md:w-1/2 mt-10 md:text-left bg-black-800 mt-2 md:mx-10">
+                    <div className="md:w-1/2 md:text-left bg-black-800 mt-2 md:mx-10">
                         <h3>Personal Info</h3>
                         <ul className="inline-block ul-center">
                             <div></div>

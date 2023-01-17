@@ -1,6 +1,6 @@
 let menuVisible = false;
 //Función que oculta o muestra el menu
-function mostrarOcultarMenu(){
+export const mostrarOcultarMenu = () => {
     if(menuVisible){
         document.getElementById("nav").classList ="";
         menuVisible = false;
@@ -16,7 +16,7 @@ function seleccionar(){
     menuVisible = false;
 }
 //Funcion que aplica las animaciones de las habilidades
-function efectoHabilidades(){
+export function efectoHabilidades(){
     var skills = document.getElementById("skills");
     var distancia_skills = window.innerHeight - skills.getBoundingClientRect().top;
     if(distancia_skills >= 300){
