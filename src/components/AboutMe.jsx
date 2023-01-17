@@ -57,15 +57,15 @@ export const AboutMe = () => {
                                     className=""
                                     href="../../src/pdf/CV2.1.1.pdf"
                                     target="_blank">
-                                    Descargar CV <i class="fa-solid fa-download"></i>
-                                    <span class="overlay"></span>
+                                    Descargar CV <i className="fa-solid fa-download"></i>
+                                    <span className="overlay"></span>
                                 </a>
                             </button>
                         </div>
                     </div>
 
                     {/* <!-- intereses --> */}
-                    <div className="mt-10 mt-2 md:mx-auto">
+                    <div className="mt-10 md:mx-auto">
                         <h3>Interests</h3>
                         <div className="flex flex-wrap">
                             <div className="interes-icon">
