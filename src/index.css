@@ -1,0 +1,99 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* GLOBAL BACKGROUND IMAGE */
+*{
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+}
+.bg-dark-pattern {
+    background-image: url(https://www.traversymedia.com/images/bg-pattern-1.png);
+    color: #fff;
+}
+
+/* SECCION NAVBAR */
+.nav-responsive{
+    background-color: #1CB698;
+    color:#fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: none;
+}
+
+.nav-selector{
+    @apply transition duration-300 ease-in-out hover:text-[#1CB698] font-bold
+}
+
+/* SECCION INICIO */
+.inicio{
+    background: linear-gradient(to top, rgba(30,35,38,.8), rgba(30,35,38,1)),
+    url("https://res.cloudinary.com/dytlbyofu/image/upload/v1673887902/Portafolio%20assets/fondo_dhhybr.jpg");
+    background-size: cover;
+    height: 100vh;
+    color: #fff;
+    display: flex; 
+    align-items: center;
+}
+
+/* SECCION ABOUT ME */
+.sobremi button{
+    position: fixed;
+    cursor: pointer;
+    background-color: transparent;
+    border: 2px solid #fff;
+    width: fit-content;
+    display: block;
+    margin: 20px auto;
+    padding: 10px 22px;
+    font-size: 16px;
+    color: #fff;
+    position: relative;
+    z-index: 100;
+}
+.sobremi button .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background-color: #1CB698;
+    z-index: -1;
+    transition: 1s;
+}
+@media (max-width: 768px) {  
+    .ul-center{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-content: center;        
+    }
+}
+.sobremi button:hover .overlay{
+    width: 100%;
+}
+
+.social-icons {
+    @apply transition duration-700 border-solid border-2 px-3 py-2 m-3 rounded-full text-[22px] border-white hover:bg-greenBorder
+}
+
+.strong-tag-info {
+    @apply text-greenBorder inline-block w-[130px]
+}
+
+.button-cv {
+    @apply text-[16px] text-white p-6 py-4 border-2 rounded-md uppercase after:no-underline
+}
+
+h3{
+    @apply text-2xl text-white font-bold font-mono mb-6 md:text-left text-center
+}
+
+.interes-icon{
+    @apply flex-col justify-center m-2 text-center text-white w-[100px] h-[100px] bg-grayIcon rounded-xl transition-colors duration-300 hover:bg-greenBorder
+}
+.interes-i {
+    @apply text-[30px] mt-5
+}
