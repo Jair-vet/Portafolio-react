@@ -9,7 +9,7 @@
     line-height: 1.6;
 }
 body {
-    background-color: #1e2326e1;
+    background-color: #1e2326;
 }
 .bg-dark-pattern {
     background-image: url(https://www.traversymedia.com/images/bg-pattern-1.png);
@@ -105,7 +105,7 @@ h3{
 .grid {
     display: grid;
     justify-items: center;
-    align-items: center;
+    /* align-items: center; */
     justify-content: center;
     align-content: center;
 }
@@ -118,6 +118,7 @@ h3{
     @apply flex justify-center transition duration-500 hover:-translate-y-6
 }
 
+/* Portafolio */
 .img-tag-container {
     @apply object-cover shadow-xl rounded-md w-[100%] hover:saturate-200 grayscale-0
 }

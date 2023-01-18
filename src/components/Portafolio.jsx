@@ -9,10 +9,16 @@ export const Portafolio = () => {
         id="portfolio"
         className="relative w-[100%] pt-[50px] pb-[30px] bg-grayColor">
       </section>
-      <section id="portfolio" className="bg-blackBg mx-auto ">
-        <h2 className="text-center text-4xl text-white font-mono relative">PORFOLIO</h2>
-          <div className="bg-blackBg">
-            <div className="grid lg:grid-cols-4 md:grid-cols-3 grid-cols-2 gap-4 justify-center mx-6">
+      <section id="portfolio" className="bg-grayColor mx-auto mb-10 p-10">
+        <h2 className="text-center text-4xl text-white font-mono relative mb-10">PORFOLIO</h2>
+        <div className="m-5">
+          <p className="text-white text-left text-lg uppercase">In this section you will find all the work that 
+            I have done with the indicated tools.
+            <p> </p> All Codes are in my Github Repository.
+          </p>
+        </div>
+          <div>
+            <div className="grid lg:grid-cols-4 md:grid-cols-3 grid-cols-2 gap-4 justify-center mx-6 bg-grayColor">
                 <NavLink
                     className="flex justify-center"
                     to='/javascript'>
@@ -43,13 +49,10 @@ export const Portafolio = () => {
                     to='/node'>
                     <img className="img-tag-container-porfolio" src="https://seeklogo.com/images/N/nodejs-logo-FBE122E377-seeklogo.com.png" alt="Node Apps"></img>
                 </NavLink>
-                 
               </div>
           </div>
       </section>
-      <section 
-        className="relative w-[100%] pt-[50px] pb-[30px] bg-grayColor">
-      </section>
+
     </>
   )
 }

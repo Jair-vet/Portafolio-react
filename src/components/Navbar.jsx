@@ -39,17 +39,12 @@ export const Navbar = () => {
                     <li className="text-white no-underline p-3 mx-1">
                         <a className="nav-selector" href="#skills" /* onclick="seleccionar()" */>SKILLS</a>
                     </li>
-                    <li className="text-white no-underline p-3 mx-1">
-                        <a className="nav-selector" href="#curriculum" /* onclick="seleccionar()" */>RESUME</a>
-                    </li>
+                    
                     <li className="text-white no-underline p-3 mx-1">
                         <a className="nav-selector" href="#portfolio" /* onclick="seleccionar()" */>PORTFOLIO</a>
                     </li>
                     <li className="text-white no-underline p-3 mx-1">
                         <a className="nav-selector" href="#certificates" /* onclick="seleccionar()" */>CERTIFICATES</a>
-                    </li>
-                    <li className="text-white no-underline p-3 mx-1">
-                        <a className="nav-selector" href="#contacto" /* onclick="seleccionar()" */>CONTAC</a>
                     </li>
                 </ul>
             </nav>

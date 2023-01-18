@@ -8,11 +8,11 @@ export const Certificados = () => {
         
         <section className="section-padding-xl bg-blackBg ">
             <div className="container mx-auto text-white overflow-visible flex justify-center p-1">
-                <h2 className="text-center uppercase text-4xl font-bold mb-10">certificates</h2>
+                <h2 className="text-center uppercase text-4xl font-bold mb-10 mt-6">certificates</h2>
             </div>
 
-            <div className="container grid justify-items-center grid-cols-2 mt-12 sm:mt-0 md:grid-cols-5 xl:grid-cols-5 h-full 
-                    w-full p-4 ">
+            <div className="container grid justify-items-center grid-cols-2 mt-12 sm:mt-0
+                 md:grid-cols-5 xl:grid-cols-5 h-full w-full p-4 overflow-visible mb-10 mx-auto">
                 {/* <!-- GITHUB --> */}
                 <a href="https://res.cloudinary.com/dytlbyofu/image/upload/v1671472139/Certificates/Git-Hub.Certificate_ofxi7d.pdf" target="blank">
                     <img src="https://fernando-herrera.com/assets/img/studentdetail/badges/git-github.svg" 
@@ -45,7 +45,7 @@ export const Certificados = () => {
                 <a href="https://res.cloudinary.com/dytlbyofu/image/upload/v1671473913/Certificates/VueJs_r1sgjs.pdf" target="blank">
                     <img src="https://fernando-herrera.com/assets/img/studentdetail/badges/vuejs.svg" 
                             alt="Vue js"
-                            className="w-[78px]"
+                            className="w-[100px]"
                     ></img>
                 </a>
                 {/* <!-- VISUAL STUDIO --> */}
@@ -80,7 +80,7 @@ export const Certificados = () => {
                 <a href="https://res.cloudinary.com/dytlbyofu/image/upload/v1672159344/Certificates/TailwindCss_o3fze3.pdf" target="blank">
                     <img src="https://res.cloudinary.com/dytlbyofu/image/upload/v1672177463/skills-tools/Tailwindcss_xgnxgg.png" 
                             alt="Tailwindcss"
-                            className="w-[100px]"
+                            className="w-[120px]"
                     ></img>
                 </a>
             </div>
