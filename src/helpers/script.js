@@ -16,10 +16,11 @@ export function seleccionar(){
     menuVisible = false;
 }
 //Funcion que aplica las animaciones de las habilidades
-export function efectoHabilidades(){
+export const  efectoHabilidades = () => {
     var skills = document.getElementById("skills");
+    if(!skills) return
     var distancia_skills = window.innerHeight - skills.getBoundingClientRect().top;
-    if(distancia_skills >= 300){
+    if(distancia_skills >= 500){
         let habilidades = document.getElementsByClassName("progreso");
         habilidades[0].classList.add("git");
         habilidades[1].classList.add("docker");

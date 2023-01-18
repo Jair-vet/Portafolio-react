@@ -1,9 +1,6 @@
-import { efectoHabilidades } from "../helpers/script"
 
 export const Skills = () => {
-  window.onscroll = function() {
-    efectoHabilidades()
-  }
+  
   return (
     <>
       {/* <!-- SECCION SKILLS --> */}
