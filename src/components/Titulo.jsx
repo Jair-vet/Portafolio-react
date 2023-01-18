@@ -1,3 +1,4 @@
+import { NavLink } from "react-router-dom"
 
 export const Titulo = ({ titulo }) => {
   return (
@@ -8,7 +9,11 @@ export const Titulo = ({ titulo }) => {
                 <a href="#" className="font-mono">{ titulo }</a>
             </div>
             <div>
-              <a className="nav-selector text-white no-underline p-3 mx-1" href="/inicio">Regresar</a>
+              <NavLink 
+                className="nav-selector text-white no-underline p-3 mx-1"
+                to='/inicio'>
+              Regresar
+              </NavLink>
             </div>
         </header>
     </div>
