@@ -207,7 +207,7 @@ img {
 }
 
 .img-tag-container {
-    @apply object-cover shadow-xl rounded-md w-[100%]
+    @apply object-cover shadow-xl rounded-md w-[100%] hover:saturate-200 grayscale-0
 }
 
 /* SECCION RESPONSIVE */
