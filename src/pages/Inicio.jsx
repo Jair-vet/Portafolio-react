@@ -6,8 +6,12 @@ import { Certificados } from "../components/Certificados"
 import { Footer } from "../components/Footer"
 import { Skills } from "../components/Skills"
 
+import {efectoHabilidades} from '../helpers/script'
 
 export const Inicio = () => {
+  window.onscroll = function(){
+    efectoHabilidades();
+} 
   return (
     <>
         <Navbar />
