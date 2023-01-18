@@ -54,7 +54,7 @@ body {
     font-size: 16px;
     color: #fff;
     position: relative;
-    z-index: 100;
+    z-index: 10;
 }
 .sobremi button .overlay{
     position: absolute;

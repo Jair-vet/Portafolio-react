@@ -16,7 +16,7 @@ export const Portafolio = () => {
               <div className="grid grid-cols-2 gap-4 md:grid-cols-4">
                 <NavLink 
                     to='/javascript'>
-                    <img className="object-cover h-40" src="https://res.cloudinary.com/dytlbyofu/image/upload/v1670010691/skills-tools/js-logo_v6focr.png" alt="JavaScript Apps"></img>
+                    <img className="object-cover h-32" src="https://res.cloudinary.com/dytlbyofu/image/upload/v1670010691/skills-tools/js-logo_v6focr.png" alt="JavaScript Apps"></img>
                 </NavLink>
                 <NavLink 
                     to='/vue'>
