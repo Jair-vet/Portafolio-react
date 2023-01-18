@@ -14,7 +14,7 @@ export const Portafolio = () => {
         <div className="m-5">
           <p className="text-white text-left text-lg uppercase">In this section you will find all the work that 
             I have done with the indicated tools.
-            <p> </p> All Codes are in my Github Repository.
+             All Codes are in my Github Repository.
           </p>
         </div>
           <div>
