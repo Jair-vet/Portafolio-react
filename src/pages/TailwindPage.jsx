@@ -7,7 +7,7 @@ export const TailwindPage = () => {
       <Titulo titulo='TailwindCss'/>
 
       <section>
-        <h2 className="text-center mt-36 text-6xl text-white font-mono">Css Proyects</h2>
+        <h2 className="text-center mt-36 text-6xl font-mono text-greenBorder">TailwindCsss Proyects</h2>
         <div className="grid lg:grid-cols-4 md:grid-cols-3 grid-cols-2 gap-4 justify-center mt-5 m-6">
           {/* Simple Cards */}
           <Proyect 
