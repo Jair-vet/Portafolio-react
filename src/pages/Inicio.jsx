@@ -3,6 +3,7 @@ import { AboutMe } from "../components/AboutMe"
 import { Portafolio } from "../components/Portafolio"
 import { Navbar } from "../components/Navbar"
 import { Certificados } from "../components/Certificados"
+import { Footer } from "../components/Footer"
 
 
 export const Inicio = () => {
@@ -20,6 +21,10 @@ export const Inicio = () => {
 
         {/* Certificados Component */}
         <Certificados />
+
+
+        {/* Footer Component */}
+        <Footer />
 
     </>
   )
