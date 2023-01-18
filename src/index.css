@@ -102,100 +102,12 @@ h3{
 }
 
 /* SECCION PORTFOLIO */
-.bg-dark-pattern {
-    background-image: url(https://www.traversymedia.com/images/bg-pattern-1.png);
-    color: #fff;
-}
-.section-padding-xl {
-    padding: 60px 20px;
-}
-.section-padding-md {
-    padding: 20px 10px;
-}
-.container {
-    max-width: 1100px;
-    margin: auto;
-}
-div {
-    display: block;
-}
-
-img {
-    width: 80%;
-}
-
-.crash img {
-    object-fit:fill;
-    transition: 0.5s;
-    border-radius: 5px;
-}
-
-.crash img:hover {
-    transform: translateY(-15px);
-}
-
-.portfolio{
-    background-image: url(https://www.traversymedia.com/images/bg-pattern-1.png);
-    color: #fff;
-    padding: 50px 20px;
-}
-.portfolio .contenido-seccion{
-    max-width: 1100px;
-    margin: auto;
-}
-.portfolio h2{
-    font-size: 48px;
-    font-family: 'Righteous';
-    text-align: center;
-    padding: 20px 0;
-}
-.portfolio .galeria{
-    display: flex;
-    flex-wrap: wrap;
+.grid {
+    display: grid;
+    justify-items: center;
     align-items: center;
     justify-content: center;
     align-content: center;
-}
-.portfolio .galeria img{
-  width: 20px;
-}
-.portfolio .galeria .proyecto{
-    position: relative;
-    max-width: 300px;
-    height: 200px;
-    margin: 10px;
-    cursor: pointer;
-}
-.portfolio .galeria .proyecto img{
-    width: 100%;
-    height: 200px;
-    display: block;
-}
-
-.portfolio .galeria .proyecto .overlay{
-    position: absolute;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    text-align: center;
-    background: linear-gradient(rgba(28,182,152,.8), rgba(28,182,152,.8));
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    transition: 1s;
-    font-size: 18px;
-    letter-spacing: 3px;
-    opacity: 0;
-}
-.portfolio .galeria .proyecto .overlay h3{
-    margin-bottom: 20px;
-    transition: 1s;
-}
-.portfolio .galeria .proyecto .overlay:hover{
-    opacity: 1;
-}
-.portfolio .galeria .proyecto .overlay:hover h3{
-    margin-bottom: 0px;
 }
 
 /* Proyecto Modulos */
@@ -208,6 +120,10 @@ img {
 
 .img-tag-container {
     @apply object-cover shadow-xl rounded-md w-[100%] hover:saturate-200 grayscale-0
+}
+
+.img-tag-container-porfolio {
+    @apply object-fill rounded-md w-[50%] flex justify-center transition duration-500 hover:-translate-y-3
 }
 
 /* Footer Secction */
