@@ -25,7 +25,7 @@ export const Skills = () => {
                           <img src="https://res.cloudinary.com/dytlbyofu/image/upload/v1670010691/skills-tools/docker-lcon_t9mlir.webp" alt="docker"></img>
                           <div className="barra-skill">
                               <div className="progreso">
-                                  <span>20%</span>
+                                  <span>30%</span>
                               </div>
                           </div>
                       </div>
@@ -35,7 +35,7 @@ export const Skills = () => {
                           <img src="https://res.cloudinary.com/dytlbyofu/image/upload/v1670010691/skills-tools/css-icon_jusqwv.png" alt="css"></img>
                           <div className="barra-skill">
                               <div className="progreso">
-                                  <span>75%</span>
+                                  <span>80%</span>
                               </div>
                           </div>
                       </div>
@@ -44,7 +44,7 @@ export const Skills = () => {
                           <img src="https://res.cloudinary.com/dytlbyofu/image/upload/v1670021494/skills-tools/TailwindLogo_ot5lzl.png" alt="taildwind"></img>
                           <div className="barra-skill">
                               <div className="progreso">
-                                  <span>75%</span>
+                                  <span>80%</span>
                               </div>
                           </div>
                       </div>
@@ -62,7 +62,7 @@ export const Skills = () => {
                           <img src="https://res.cloudinary.com/dytlbyofu/image/upload/v1670010691/skills-tools/postman-icon_aqryg7.webp" alt="pwa"></img>
                           <div className="barra-skill">
                               <div className="progreso">
-                                  <span>75%</span>
+                                  <span>70%</span>
                               </div>
                           </div>
                       </div>
@@ -75,7 +75,7 @@ export const Skills = () => {
                           <img src="https://res.cloudinary.com/dytlbyofu/image/upload/v1670010691/skills-tools/js-logo_v6focr.png" alt="javascript"></img>
                           <div className="barra-skill">
                               <div className="progreso">
-                                  <span>80%</span>
+                                  <span>70%</span>
                               </div>
                           </div>
                       </div>
@@ -84,7 +84,7 @@ export const Skills = () => {
                           <img src="https://res.cloudinary.com/dytlbyofu/image/upload/v1670010692/skills-tools/React-icon_wcrcad.png" alt="react js"></img>
                           <div className="barra-skill">
                               <div className="progreso">
-                                  <span>30%</span>
+                                  <span>70%</span>
                               </div>
                           </div>
                       </div>
@@ -93,7 +93,7 @@ export const Skills = () => {
                           <img src="https://res.cloudinary.com/dytlbyofu/image/upload/v1670010692/skills-tools/Vue-icon_gwtj8g.png" alt="vue js"></img>
                           <div className="barra-skill">
                               <div className="progreso">
-                                  <span>80%</span>
+                                  <span>60%</span>
                               </div>
                           </div>
                       </div>
@@ -102,7 +102,7 @@ export const Skills = () => {
                           <img src="https://res.cloudinary.com/dytlbyofu/image/upload/v1670010691/skills-tools/node-lcon_zdg5zq.png" alt="node js"></img>
                           <div className="barra-skill">
                               <div className="progreso">
-                                  <span>85%</span>
+                                  <span>75%</span>
                               </div>
                           </div>
                       </div>
@@ -111,7 +111,7 @@ export const Skills = () => {
                           <img src="https://res.cloudinary.com/dytlbyofu/image/upload/v1670010692/skills-tools/sql_uqjbv1.webp" alt="sql"></img>
                           <div className="barra-skill">
                               <div className="progreso">
-                                  <span>75%</span>
+                                  <span>55%</span>
                               </div>
                           </div>
                       </div>

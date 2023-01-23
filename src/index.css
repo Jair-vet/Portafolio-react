@@ -181,7 +181,7 @@ h3{
 }
 @keyframes docker {
     0%{width: 0%;}
-    100%{width: 20%;}
+    100%{width: 30%;}
 }
 
 .skills .skill .htmlcss{
@@ -190,7 +190,7 @@ h3{
 }
 @keyframes htmlcss {
     0%{width: 0%;}
-    100%{width: 75%;}
+    100%{width: 80%;}
 }
 .skills .skill .taildwind{
     width: 0%;
@@ -198,7 +198,7 @@ h3{
 }
 @keyframes taildwind {
     0%{width: 0%;}
-    100%{width: 75%;}
+    100%{width: 80%;}
 }
 
 .skills .skill .pwa{
@@ -216,7 +216,7 @@ h3{
 }
 @keyframes postman {
     0%{width: 0%;}
-    100%{width: 81%;}
+    100%{width: 70%;}
 }
 
 .skills .skill .javascript{
@@ -225,7 +225,7 @@ h3{
 }
 @keyframes javascript {
     0%{width: 0%;}
-    100%{width: 80%;}
+    100%{width: 70%;}
 }
 .skills .skill .react{
     width: 0%;
@@ -233,7 +233,7 @@ h3{
 }
 @keyframes react {
     0%{width: 0%;}
-    100%{width: 30%;}
+    100%{width: 70%;}
 }
 
 .skills .skill .vue{
@@ -242,7 +242,7 @@ h3{
 }
 @keyframes vue {
     0%{width: 0%;}
-    100%{width: 80%;}
+    100%{width: 60%;}
 }
 
 .skills .skill .node{
@@ -251,7 +251,7 @@ h3{
 }
 @keyframes node {
     0%{width: 0%;}
-    100%{width: 85%;}
+    100%{width: 75%;}
 }
 
 .skills .skill .sql{
@@ -260,7 +260,7 @@ h3{
 }
 @keyframes sql {
     0%{width: 0%;}
-    100%{width: 75%;}
+    100%{width: 55%;}
 }
 
 /* SECCION PORTFOLIO */
@@ -282,11 +282,11 @@ h3{
 
 /* Portafolio */
 .img-tag-container {
-    @apply object-cover shadow-xl rounded-md w-[100%] hover:saturate-200 grayscale-0
+    @apply object-cover hover:duration-300 hover:shadow-xl hover:shadow-white rounded-md w-[100%] hover:saturate-200 grayscale-0
 }
 
 .img-tag-container-porfolio {
-    @apply object-fill rounded-md w-[50%] flex justify-center transition duration-500 hover:-translate-y-3
+    @apply object-cover rounded-md w-[50%] flex justify-center transition duration-500 hover:-translate-y-3
 }
 
 /* Footer Secction */
