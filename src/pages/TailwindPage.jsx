@@ -69,6 +69,21 @@ export const TailwindPage = () => {
             enlace='https://jair-vet.github.io/My-Perfil-Tailwind/'
             imagen='https://res.cloudinary.com/dytlbyofu/image/upload/v1674004818/Applications%20made/Image-Gallery_aj6sxk.png'
           />
+          {/* Hamburger NavBar */}
+          <Proyect 
+            enlace='https://jair-vet.github.io/SimpleNavbar-Tailwindcss/'
+            imagen='https://res.cloudinary.com/dytlbyofu/image/upload/v1674677735/Applications%20made/Navbar_daxerg.png'
+          />
+          {/* Pagination*/}
+          <Proyect 
+            enlace='https://jair-vet.github.io/Paginacion-TailwindCss/'
+            imagen='https://res.cloudinary.com/dytlbyofu/image/upload/v1674677735/Applications%20made/Paginacion_wh0ay8.png'
+          />
+          {/* Side Bar */}
+          <Proyect 
+            enlace='https://jair-vet.github.io/SideBar-TailwindCss/'
+            imagen='https://res.cloudinary.com/dytlbyofu/image/upload/v1674677735/Applications%20made/Side_Bar_ct84yp.png'
+          />
 
         </div>
       </section>
