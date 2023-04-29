@@ -53,6 +53,36 @@ export const React = () => {
             enlace='https://unique-dolphin-ffc4c1.netlify.app/'
             imagen='https://user-images.githubusercontent.com/63264620/212576697-5db891f5-7b41-4fbd-b8b1-b0ef71c2aff9.png'
           />
+          {/* Pokemon App */}
+          <Proyect 
+            enlace='https://pokemon-app-next-js-xi.vercel.app/'
+            imagen='https://res.cloudinary.com/dytlbyofu/image/upload/v1682797492/Applications%20made/PokemonApp_b10j0d.png'
+          />
+          {/* Bebida App */}
+          <Proyect 
+            enlace='https://elaborate-squirrel-b448d5.netlify.app/'
+            imagen='https://res.cloudinary.com/dytlbyofu/image/upload/v1682048088/Applications%20made/Pasos_para_hacer_la_bebida_mi1p6q.png'
+          />
+          {/* Quiosco App */}
+          <Proyect 
+            enlace='https://quiosco-app-react-production.up.railway.app/'
+            imagen='https://res.cloudinary.com/dytlbyofu/image/upload/v1682048088/Applications%20made/QuioscoApp_gvifvs.png'
+          />
+          {/* Cotizador Autos App */}
+          <Proyect 
+            enlace='https://merry-rabanadas-300c12.netlify.app/'
+            imagen='https://res.cloudinary.com/dytlbyofu/image/upload/v1682048087/Applications%20made/Cotizador_de_Seguros_mnps1w.png'
+          />
+          {/* Noticias App */}
+          <Proyect 
+            enlace='https://poetic-churros-716faf.netlify.app'
+            imagen='https://res.cloudinary.com/dytlbyofu/image/upload/v1682048088/Applications%20made/Noticias_App_ngvuzd.png'
+          />
+          {/* Clima App */}
+          <Proyect 
+            enlace='https://lucent-lokum-c248b2.netlify.app'
+            imagen='https://res.cloudinary.com/dytlbyofu/image/upload/v1682048086/Applications%20made/Clima_App_mxnwbd.png'
+          />
           
           
         </div>
