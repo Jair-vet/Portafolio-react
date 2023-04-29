@@ -7,7 +7,7 @@ export const JavaScript = () => {
         <Titulo titulo='JavaScript' />
         <section className="mx-auto"> 
         <h2 className="text-center mt-36 text-6xl text-white font-mono">React Js Proyects</h2>
-        <div className="grid lg:grid-cols-4 md:grid-cols-3 grid-cols-2 gap-4 justify-center mt-5 m-6">
+        <div className="grid lg:grid-cols-4 md:grid-cols-3 grid-cols-2 gap-8 justify-center mt-12 m-6">
           {/* Cine Booking App */}
           <Proyect 
             enlace='https://jair-vet.github.io/Movie-seat-Booking/'
