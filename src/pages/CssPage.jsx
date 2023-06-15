@@ -16,7 +16,7 @@ export const CssPage = () => {
 
           {
             CssPage.map(proyect => (
-              <a className="a-tag-container" href={ proyect.link } target="_blank">
+              <a className="a-tag-container" href={ proyect.link } target="_blank" key={ proyect.name }>
                 <img
                 className="img-tag-container"
                 src={ proyect.image } 
