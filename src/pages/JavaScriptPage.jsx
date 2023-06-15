@@ -10,7 +10,7 @@ export const JavaScript = () => {
     <>
         <Titulo titulo='JavaScript' />
         <section className="mx-auto"> 
-        <h2 className="text-center mt-36 text-6xl text-white font-mono">React Js Proyects</h2>
+        <h2 className="text-center mt-36 text-6xl text-white font-mono">JavaScript Proyects</h2>
         <div className="grid lg:grid-cols-4 md:grid-cols-3 grid-cols-2 gap-8 justify-center mt-12 m-6">
           {
             JavaScriptPage.map(proyect => (
