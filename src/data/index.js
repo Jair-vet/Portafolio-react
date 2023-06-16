@@ -2,8 +2,16 @@ export const SeedData = {
     CssPage: [
        { 
             name:   "Nucleus",
-            tools:  ["Css", "Html"],
-            logos:  [   "https://res.cloudinary.com/dytlbyofu/image/upload/v1670010691/skills-tools/css-icon_jusqwv.png",
+            tools:  [ 
+                        {
+                            key: "1",
+                        },
+                        "Css", "Html"
+                    ],
+            logos:  [   {
+                            key: "100",
+                        },
+                        "https://res.cloudinary.com/dytlbyofu/image/upload/v1670010691/skills-tools/css-icon_jusqwv.png",
                         "https://res.cloudinary.com/dytlbyofu/image/upload/v1670010691/skills-tools/Html-icon_dtsivo.png"
                     ],
             link:   "https://jair-vet.github.io/Nucleus_app/",
@@ -11,8 +19,16 @@ export const SeedData = {
         },
        { 
             name:   "TechPro",
-            tools:  ["Css", "Html"],
-            logos:  [   "https://res.cloudinary.com/dytlbyofu/image/upload/v1670010691/skills-tools/css-icon_jusqwv.png",
+            tools:  [ 
+                        {
+                            key: "12",
+                        },
+                        "Css", "Html"
+                    ],
+            logos:  [   {
+                            key: "1200",
+                        },
+                        "https://res.cloudinary.com/dytlbyofu/image/upload/v1670010691/skills-tools/css-icon_jusqwv.png",
                         "https://res.cloudinary.com/dytlbyofu/image/upload/v1670010691/skills-tools/Html-icon_dtsivo.png"
                     ],
             link:   "https://jair-vet.github.io/TechPRO/",
@@ -20,8 +36,16 @@ export const SeedData = {
         },
        { 
             name:   "Ecommerce",
-            tools:  ["Css", "Html"],
-            logos:  [   "https://res.cloudinary.com/dytlbyofu/image/upload/v1670010691/skills-tools/css-icon_jusqwv.png",
+            tools:  [ 
+                        {
+                            key: "13",
+                        },
+                        "Css", "Html"
+                    ],
+            logos:  [   {
+                            key: "1300",
+                        },
+                        "https://res.cloudinary.com/dytlbyofu/image/upload/v1670010691/skills-tools/css-icon_jusqwv.png",
                         "https://res.cloudinary.com/dytlbyofu/image/upload/v1670010691/skills-tools/Html-icon_dtsivo.png"
                     ],
             link:   "https://jair-vet.github.io/Tienda-Ecomerce/index.html",
@@ -29,8 +53,16 @@ export const SeedData = {
         },
        { 
             name:   "Arquitectura Bosque",
-            tools:  ["Css", "Html"],
-            logos:  [   "https://res.cloudinary.com/dytlbyofu/image/upload/v1670010691/skills-tools/css-icon_jusqwv.png",
+            tools:  [ 
+                        {
+                            key: "14",
+                        },
+                        "Css", "Html"
+                    ],
+            logos:  [   {
+                            key: "1400",
+                        },
+                        "https://res.cloudinary.com/dytlbyofu/image/upload/v1670010691/skills-tools/css-icon_jusqwv.png",
                         "https://res.cloudinary.com/dytlbyofu/image/upload/v1670010691/skills-tools/Html-icon_dtsivo.png"
                     ],
             link:   "https://jair-vet.github.io/ArquitecturaBosque/",
@@ -38,8 +70,16 @@ export const SeedData = {
         },
        { 
             name:   "Expanding Cards",
-            tools:  ["Css", "Html"],
-            logos:  [   "https://res.cloudinary.com/dytlbyofu/image/upload/v1670010691/skills-tools/css-icon_jusqwv.png",
+            tools:  [ 
+                        {
+                            key: "15",
+                        },
+                        "Css", "Html"
+                    ],
+            logos:  [   {
+                            key: "1500",
+                        },
+                        "https://res.cloudinary.com/dytlbyofu/image/upload/v1670010691/skills-tools/css-icon_jusqwv.png",
                         "https://res.cloudinary.com/dytlbyofu/image/upload/v1670010691/skills-tools/Html-icon_dtsivo.png"
                     ],
             link:   "https://jair-vet.github.io/Expanding-Cards/",
@@ -47,8 +87,16 @@ export const SeedData = {
         },
        { 
             name:   "Drop-Effect",
-            tools:  ["Css", "Html"],
-            logos:  [   "https://res.cloudinary.com/dytlbyofu/image/upload/v1670010691/skills-tools/css-icon_jusqwv.png",
+            tools:  [ 
+                        {
+                            key: "16",
+                        },
+                        "Css", "Html"
+                    ],
+            logos:  [   {
+                            key: "1600",
+                        },
+                        "https://res.cloudinary.com/dytlbyofu/image/upload/v1670010691/skills-tools/css-icon_jusqwv.png",
                         "https://res.cloudinary.com/dytlbyofu/image/upload/v1670010691/skills-tools/Html-icon_dtsivo.png"
                     ],
             link:   "https://jair-vet.github.io/Login-Drop-Effect/",
@@ -56,8 +104,16 @@ export const SeedData = {
         },
        { 
             name:   "Basic Login",
-            tools:  ["Css", "Html"],
-            logos:  [   "https://res.cloudinary.com/dytlbyofu/image/upload/v1670010691/skills-tools/css-icon_jusqwv.png",
+            tools:  [ 
+                        {
+                            key: "17",
+                        },
+                        "Css", "Html"
+                    ],
+            logos:  [   {
+                            key: "1700",
+                        },
+                        "https://res.cloudinary.com/dytlbyofu/image/upload/v1670010691/skills-tools/css-icon_jusqwv.png",
                         "https://res.cloudinary.com/dytlbyofu/image/upload/v1670010691/skills-tools/Html-icon_dtsivo.png"
                     ],
             link:   "https://jair-vet.github.io/Basic-Login/",
@@ -65,8 +121,16 @@ export const SeedData = {
         },
        { 
             name:   "Landing Page",
-            tools:  ["Css", "Html"],
-            logos:  [   "https://res.cloudinary.com/dytlbyofu/image/upload/v1670010691/skills-tools/css-icon_jusqwv.png",
+            tools:  [ 
+                        {
+                            key: "18",
+                        },
+                        "Css", "Html"
+                    ],
+            logos:  [   {
+                            key: "1800",
+                        },
+                        "https://res.cloudinary.com/dytlbyofu/image/upload/v1670010691/skills-tools/css-icon_jusqwv.png",
                         "https://res.cloudinary.com/dytlbyofu/image/upload/v1670010691/skills-tools/Html-icon_dtsivo.png"
                     ],
             link:   "https://jair-vet.github.io/Landing-Page/",
@@ -74,8 +138,16 @@ export const SeedData = {
         },
        { 
             name:   "Login and Signup",
-            tools:  ["Css", "Html"],
-            logos:  [   "https://res.cloudinary.com/dytlbyofu/image/upload/v1670010691/skills-tools/css-icon_jusqwv.png",
+            tools:  [ 
+                        {
+                            key: "19",
+                        },
+                        "Css", "Html"
+                    ],
+            logos:  [   {
+                            key: "1900",
+                        },
+                        "https://res.cloudinary.com/dytlbyofu/image/upload/v1670010691/skills-tools/css-icon_jusqwv.png",
                         "https://res.cloudinary.com/dytlbyofu/image/upload/v1670010691/skills-tools/Html-icon_dtsivo.png"
                     ],
             link:   "https://jair-vet.github.io/Login-and-Signup/",
@@ -83,8 +155,16 @@ export const SeedData = {
         },
        { 
             name:   "404-Astronaut",
-            tools:  ["Css", "Html"],
-            logos:  [   "https://res.cloudinary.com/dytlbyofu/image/upload/v1670010691/skills-tools/css-icon_jusqwv.png",
+            tools:  [ 
+                        {
+                            key: "10",
+                        },
+                        "Css", "Html"
+                    ],
+            logos:  [   {
+                            key: "1000",
+                        },
+                        "https://res.cloudinary.com/dytlbyofu/image/upload/v1670010691/skills-tools/css-icon_jusqwv.png",
                         "https://res.cloudinary.com/dytlbyofu/image/upload/v1670010691/skills-tools/Html-icon_dtsivo.png"
                     ],
             link:   "https://jair-vet.github.io/404-astronaut/",
@@ -92,8 +172,16 @@ export const SeedData = {
         },
        { 
             name:   "404-Moon",
-            tools:  ["Css", "Html"],
-            logos:  [   "https://res.cloudinary.com/dytlbyofu/image/upload/v1670010691/skills-tools/css-icon_jusqwv.png",
+            tools:  [ 
+                        {
+                            key: "2",
+                        },
+                        "Css", "Html"
+                    ],
+            logos:  [   {
+                            key: "200",
+                        },
+                        "https://res.cloudinary.com/dytlbyofu/image/upload/v1670010691/skills-tools/css-icon_jusqwv.png",
                         "https://res.cloudinary.com/dytlbyofu/image/upload/v1670010691/skills-tools/Html-icon_dtsivo.png"
                     ],
             link:   "https://jair-vet.github.io/404-moon/",
@@ -104,8 +192,16 @@ export const SeedData = {
     JavaScriptPage: [
         { 
             name:   "Cine Booking App",
-            tools:  ["JavaScript", "Css", "Html"],
-            logos:  [   "https://res.cloudinary.com/dytlbyofu/image/upload/v1670010691/skills-tools/js-logo_v6focr.png",
+            tools:  [ 
+                        {
+                            key: "21",
+                        },
+                        "JavaScript", "Css", "Html"
+                    ],
+            logos:  [   {
+                            key: "2100",
+                        },
+                        "https://res.cloudinary.com/dytlbyofu/image/upload/v1670010691/skills-tools/js-logo_v6focr.png",
                         "https://res.cloudinary.com/dytlbyofu/image/upload/v1670010691/skills-tools/css-icon_jusqwv.png",
                         "https://res.cloudinary.com/dytlbyofu/image/upload/v1670010691/skills-tools/Html-icon_dtsivo.png",
                     ],
@@ -114,8 +210,16 @@ export const SeedData = {
         }, 
         { 
             name:   "Register Validator App",
-            tools:  ["JavaScript", "Css", "Html"],
-            logos:  [   "https://res.cloudinary.com/dytlbyofu/image/upload/v1670010691/skills-tools/js-logo_v6focr.png",
+            tools:  [ 
+                        {
+                            key: "22",
+                        },
+                        "JavaScript", "Css", "Html"
+                    ],
+            logos:  [   {
+                            key: "2200",
+                        },
+                        "https://res.cloudinary.com/dytlbyofu/image/upload/v1670010691/skills-tools/js-logo_v6focr.png",
                         "https://res.cloudinary.com/dytlbyofu/image/upload/v1670010691/skills-tools/css-icon_jusqwv.png",
                         "https://res.cloudinary.com/dytlbyofu/image/upload/v1670010691/skills-tools/Html-icon_dtsivo.png",
                     ],
@@ -124,8 +228,16 @@ export const SeedData = {
         }, 
         { 
             name:   "Drink Water App",
-            tools:  ["JavaScript", "Css", "Html"],
-            logos:  [   "https://res.cloudinary.com/dytlbyofu/image/upload/v1670010691/skills-tools/js-logo_v6focr.png",
+            tools:  [ 
+                        {
+                            key: "23",
+                        },
+                        "JavaScript", "Css", "Html"
+                    ],
+            logos:  [   {
+                            key: "2300",
+                        },
+                        "https://res.cloudinary.com/dytlbyofu/image/upload/v1670010691/skills-tools/js-logo_v6focr.png",
                         "https://res.cloudinary.com/dytlbyofu/image/upload/v1670010691/skills-tools/css-icon_jusqwv.png",
                         "https://res.cloudinary.com/dytlbyofu/image/upload/v1670010691/skills-tools/Html-icon_dtsivo.png",
                     ],
@@ -134,8 +246,16 @@ export const SeedData = {
         }, 
         { 
             name:   "Search App",
-            tools:  ["JavaScript", "Css", "Html"],
-            logos:  [   "https://res.cloudinary.com/dytlbyofu/image/upload/v1670010691/skills-tools/js-logo_v6focr.png",
+            tools:  [ 
+                        {
+                            key: "24",
+                        },
+                        "JavaScript", "Css", "Html"
+                    ],
+            logos:  [   {
+                            key: "2400",
+                        },
+                        "https://res.cloudinary.com/dytlbyofu/image/upload/v1670010691/skills-tools/js-logo_v6focr.png",
                         "https://res.cloudinary.com/dytlbyofu/image/upload/v1670010691/skills-tools/css-icon_jusqwv.png",
                         "https://res.cloudinary.com/dytlbyofu/image/upload/v1670010691/skills-tools/Html-icon_dtsivo.png",
                     ],
@@ -144,8 +264,16 @@ export const SeedData = {
         }, 
         { 
             name:   "Progress Steps App",
-            tools:  ["JavaScript", "Css", "Html"],
-            logos:  [   "https://res.cloudinary.com/dytlbyofu/image/upload/v1670010691/skills-tools/js-logo_v6focr.png",
+            tools:  [ 
+                        {
+                            key: "25",
+                        },
+                        "JavaScript", "Css", "Html"
+                    ],
+            logos:  [   {
+                            key: "2500",
+                        },
+                        "https://res.cloudinary.com/dytlbyofu/image/upload/v1670010691/skills-tools/js-logo_v6focr.png",
                         "https://res.cloudinary.com/dytlbyofu/image/upload/v1670010691/skills-tools/css-icon_jusqwv.png",
                         "https://res.cloudinary.com/dytlbyofu/image/upload/v1670010691/skills-tools/Html-icon_dtsivo.png",
                     ],
@@ -154,8 +282,16 @@ export const SeedData = {
         }, 
         { 
             name:   "Jokes App",
-            tools:  ["JavaScript", "Css", "Html"],
-            logos:  [   "https://res.cloudinary.com/dytlbyofu/image/upload/v1670010691/skills-tools/js-logo_v6focr.png",
+            tools:  [ 
+                        {
+                            key: "26",
+                        },
+                        "JavaScript", "Css", "Html"
+                    ],
+            logos:  [   {
+                            key: "2600",
+                        },
+                        "https://res.cloudinary.com/dytlbyofu/image/upload/v1670010691/skills-tools/js-logo_v6focr.png",
                         "https://res.cloudinary.com/dytlbyofu/image/upload/v1670010691/skills-tools/css-icon_jusqwv.png",
                         "https://res.cloudinary.com/dytlbyofu/image/upload/v1670010691/skills-tools/Html-icon_dtsivo.png",
                     ],
@@ -164,8 +300,16 @@ export const SeedData = {
         }, 
         { 
             name:   "Key Code App",
-            tools:  ["JavaScript", "Css", "Html"],
-            logos:  [   "https://res.cloudinary.com/dytlbyofu/image/upload/v1670010691/skills-tools/js-logo_v6focr.png",
+            tools:  [ 
+                        {
+                            key: "27",
+                        },
+                        "JavaScript", "Css", "Html"
+                    ],
+            logos:  [   {
+                            key: "2700",
+                        },
+                        "https://res.cloudinary.com/dytlbyofu/image/upload/v1670010691/skills-tools/js-logo_v6focr.png",
                         "https://res.cloudinary.com/dytlbyofu/image/upload/v1670010691/skills-tools/css-icon_jusqwv.png",
                         "https://res.cloudinary.com/dytlbyofu/image/upload/v1670010691/skills-tools/Html-icon_dtsivo.png",
                     ],
@@ -174,8 +318,16 @@ export const SeedData = {
         }, 
         { 
             name:   "Navigation App",
-            tools:  ["JavaScript", "Css", "Html"],
-            logos:  [   "https://res.cloudinary.com/dytlbyofu/image/upload/v1670010691/skills-tools/js-logo_v6focr.png",
+            tools:  [ 
+                        {
+                            key: "28",
+                        },
+                        "JavaScript", "Css", "Html"
+                    ],
+            logos:  [   {
+                            key: "2800",
+                        },
+                        "https://res.cloudinary.com/dytlbyofu/image/upload/v1670010691/skills-tools/js-logo_v6focr.png",
                         "https://res.cloudinary.com/dytlbyofu/image/upload/v1670010691/skills-tools/css-icon_jusqwv.png",
                         "https://res.cloudinary.com/dytlbyofu/image/upload/v1670010691/skills-tools/Html-icon_dtsivo.png",
                     ],
@@ -184,8 +336,16 @@ export const SeedData = {
         }, 
         { 
             name:   "Question Collapse App",
-            tools:  ["JavaScript", "Css", "Html"],
-            logos:  [   "https://res.cloudinary.com/dytlbyofu/image/upload/v1670010691/skills-tools/js-logo_v6focr.png",
+            tools:  [ 
+                        {
+                            key: "29",
+                        },
+                        "JavaScript", "Css", "Html"
+                    ],
+            logos:  [   {
+                            key: "2900",
+                        },
+                        "https://res.cloudinary.com/dytlbyofu/image/upload/v1670010691/skills-tools/js-logo_v6focr.png",
                         "https://res.cloudinary.com/dytlbyofu/image/upload/v1670010691/skills-tools/css-icon_jusqwv.png",
                         "https://res.cloudinary.com/dytlbyofu/image/upload/v1670010691/skills-tools/Html-icon_dtsivo.png",
                     ],
@@ -194,8 +354,16 @@ export const SeedData = {
         }, 
         { 
             name:   "Using Coma App",
-            tools:  ["JavaScript", "Css", "Html"],
-            logos:  [   "https://res.cloudinary.com/dytlbyofu/image/upload/v1670010691/skills-tools/js-logo_v6focr.png",
+            tools:  [ 
+                        {
+                            key: "30",
+                        },
+                        "JavaScript", "Css", "Html"
+                    ],
+            logos:  [   {
+                            key: "3000",
+                        },
+                        "https://res.cloudinary.com/dytlbyofu/image/upload/v1670010691/skills-tools/js-logo_v6focr.png",
                         "https://res.cloudinary.com/dytlbyofu/image/upload/v1670010691/skills-tools/css-icon_jusqwv.png",
                         "https://res.cloudinary.com/dytlbyofu/image/upload/v1670010691/skills-tools/Html-icon_dtsivo.png",
                     ],
@@ -204,8 +372,16 @@ export const SeedData = {
         }, 
         { 
             name:   "Sound Bar App",
-            tools:  ["JavaScript", "Css", "Html"],
-            logos:  [   "https://res.cloudinary.com/dytlbyofu/image/upload/v1670010691/skills-tools/js-logo_v6focr.png",
+            tools:  [ 
+                        {
+                            key: "31",
+                        },
+                        "JavaScript", "Css", "Html"
+                    ],
+            logos:  [   {
+                            key: "3100",
+                        },
+                        "https://res.cloudinary.com/dytlbyofu/image/upload/v1670010691/skills-tools/js-logo_v6focr.png",
                         "https://res.cloudinary.com/dytlbyofu/image/upload/v1670010691/skills-tools/css-icon_jusqwv.png",
                         "https://res.cloudinary.com/dytlbyofu/image/upload/v1670010691/skills-tools/Html-icon_dtsivo.png",
                     ],
@@ -214,8 +390,16 @@ export const SeedData = {
         }, 
         { 
             name:   "Increment Counter App",
-            tools:  ["JavaScript", "Css", "Html"],
-            logos:  [   "https://res.cloudinary.com/dytlbyofu/image/upload/v1670010691/skills-tools/js-logo_v6focr.png",
+            tools:  [ 
+                        {
+                            key: "32",
+                        },
+                        "JavaScript", "Css", "Html"
+                    ],
+            logos:  [   {
+                            key: "3200",
+                        },
+                        "https://res.cloudinary.com/dytlbyofu/image/upload/v1670010691/skills-tools/js-logo_v6focr.png",
                         "https://res.cloudinary.com/dytlbyofu/image/upload/v1670010691/skills-tools/css-icon_jusqwv.png",
                         "https://res.cloudinary.com/dytlbyofu/image/upload/v1670010691/skills-tools/Html-icon_dtsivo.png",
                     ],
@@ -226,8 +410,16 @@ export const SeedData = {
     ReactPage: [
         {
             name:   "GiffExpert App",
-            tools:  ["ReactJs", "JavaScript", "Css", "Html"],
-            logos:  [   "https://res.cloudinary.com/dytlbyofu/image/upload/v1670010692/skills-tools/React-icon_wcrcad.png",
+            tools:  [ 
+                        {
+                            key: "33",
+                        },
+                        "ReactJs", "JavaScript", "Css", "Html"
+                    ],
+            logos:  [   {
+                            key: "3300",
+                        },
+                        "https://res.cloudinary.com/dytlbyofu/image/upload/v1670010692/skills-tools/React-icon_wcrcad.png",
                         "https://res.cloudinary.com/dytlbyofu/image/upload/v1670010691/skills-tools/js-logo_v6focr.png",
                         "https://res.cloudinary.com/dytlbyofu/image/upload/v1670010691/skills-tools/css-icon_jusqwv.png",
                         "https://res.cloudinary.com/dytlbyofu/image/upload/v1670010691/skills-tools/Html-icon_dtsivo.png",
@@ -237,8 +429,16 @@ export const SeedData = {
         }, 
         {
             name:   "Administrador de Notas",
-            tools:  ["ReactJs", "JavaScript", "Css", "Html"],
-            logos:  [   "https://res.cloudinary.com/dytlbyofu/image/upload/v1670010692/skills-tools/React-icon_wcrcad.png",
+            tools:  [ 
+                        {
+                            key: "34",
+                        },
+                        "ReactJs", "JavaScript", "Css", "Html"
+                    ],
+            logos:  [   {
+                            key: "3400",
+                        },
+                        "https://res.cloudinary.com/dytlbyofu/image/upload/v1670010692/skills-tools/React-icon_wcrcad.png",
                         "https://res.cloudinary.com/dytlbyofu/image/upload/v1670010691/skills-tools/js-logo_v6focr.png",
                         "https://res.cloudinary.com/dytlbyofu/image/upload/v1670010691/skills-tools/css-icon_jusqwv.png",
                         "https://res.cloudinary.com/dytlbyofu/image/upload/v1670010691/skills-tools/Html-icon_dtsivo.png",
@@ -248,8 +448,16 @@ export const SeedData = {
         }, 
         {
             name:   "Journal App",
-            tools:  ["ReactJs", "JavaScript", "Css", "Html"],
-            logos:  [   "https://res.cloudinary.com/dytlbyofu/image/upload/v1670010692/skills-tools/React-icon_wcrcad.png",
+            tools:  [ 
+                        {
+                            key: "35",
+                        },
+                        "ReactJs", "JavaScript", "Css", "Html"
+                    ],
+            logos:  [   {
+                            key: "3500",
+                        },
+                        "https://res.cloudinary.com/dytlbyofu/image/upload/v1670010692/skills-tools/React-icon_wcrcad.png",
                         "https://res.cloudinary.com/dytlbyofu/image/upload/v1670010691/skills-tools/js-logo_v6focr.png",
                         "https://res.cloudinary.com/dytlbyofu/image/upload/v1670010691/skills-tools/css-icon_jusqwv.png",
                         "https://res.cloudinary.com/dytlbyofu/image/upload/v1670010691/skills-tools/Html-icon_dtsivo.png",
@@ -259,8 +467,16 @@ export const SeedData = {
         }, 
         {
             name:   "ToDo App",
-            tools:  ["ReactJs", "JavaScript", "Css", "Html"],
-            logos:  [   "https://res.cloudinary.com/dytlbyofu/image/upload/v1670010692/skills-tools/React-icon_wcrcad.png",
+            tools:  [ 
+                        {
+                            key: "36",
+                        },
+                        "ReactJs", "JavaScript", "Css", "Html"
+                    ],
+            logos:  [   {
+                            key: "3600",
+                        },
+                        "https://res.cloudinary.com/dytlbyofu/image/upload/v1670010692/skills-tools/React-icon_wcrcad.png",
                         "https://res.cloudinary.com/dytlbyofu/image/upload/v1670010691/skills-tools/js-logo_v6focr.png",
                         "https://res.cloudinary.com/dytlbyofu/image/upload/v1670010691/skills-tools/css-icon_jusqwv.png",
                         "https://res.cloudinary.com/dytlbyofu/image/upload/v1670010691/skills-tools/Html-icon_dtsivo.png",
@@ -270,8 +486,16 @@ export const SeedData = {
         }, 
         {
             name:   "Hero App",
-            tools:  ["ReactJs", "JavaScript", "Css", "Html"],
-            logos:  [   "https://res.cloudinary.com/dytlbyofu/image/upload/v1670010692/skills-tools/React-icon_wcrcad.png",
+            tools:  [ 
+                        {
+                            key: "37",
+                        },
+                        "ReactJs", "JavaScript", "Css", "Html"
+                    ],
+            logos:  [   {
+                            key: "3700",
+                        },
+                        "https://res.cloudinary.com/dytlbyofu/image/upload/v1670010692/skills-tools/React-icon_wcrcad.png",
                         "https://res.cloudinary.com/dytlbyofu/image/upload/v1670010691/skills-tools/js-logo_v6focr.png",
                         "https://res.cloudinary.com/dytlbyofu/image/upload/v1670010691/skills-tools/css-icon_jusqwv.png",
                         "https://res.cloudinary.com/dytlbyofu/image/upload/v1670010691/skills-tools/Html-icon_dtsivo.png",
@@ -281,8 +505,16 @@ export const SeedData = {
         }, 
         {
             name:   "Cotiza Cripto App",
-            tools:  ["ReactJs", "JavaScript", "Css", "Html"],
-            logos:  [   "https://res.cloudinary.com/dytlbyofu/image/upload/v1670010692/skills-tools/React-icon_wcrcad.png",
+            tools:  [ 
+                        {
+                            key: "38",
+                        },
+                        "ReactJs", "JavaScript", "Css", "Html"
+                    ],
+            logos:  [   {
+                            key: "3800",
+                        },
+                        "https://res.cloudinary.com/dytlbyofu/image/upload/v1670010692/skills-tools/React-icon_wcrcad.png",
                         "https://res.cloudinary.com/dytlbyofu/image/upload/v1670010691/skills-tools/js-logo_v6focr.png",
                         "https://res.cloudinary.com/dytlbyofu/image/upload/v1670010691/skills-tools/css-icon_jusqwv.png",
                         "https://res.cloudinary.com/dytlbyofu/image/upload/v1670010691/skills-tools/Html-icon_dtsivo.png",
@@ -292,8 +524,16 @@ export const SeedData = {
         }, 
         {
             name:   "Veterinaria App",
-            tools:  ["ReactJs", "JavaScript", "Css", "Html"],
-            logos:  [   "https://res.cloudinary.com/dytlbyofu/image/upload/v1670010692/skills-tools/React-icon_wcrcad.png",
+            tools:  [ 
+                        {
+                            key: "39",
+                        },
+                        "ReactJs", "JavaScript", "Css", "Html"
+                    ],
+            logos:  [   {
+                            key: "3900",
+                        },
+                        "https://res.cloudinary.com/dytlbyofu/image/upload/v1670010692/skills-tools/React-icon_wcrcad.png",
                         "https://res.cloudinary.com/dytlbyofu/image/upload/v1670010691/skills-tools/js-logo_v6focr.png",
                         "https://res.cloudinary.com/dytlbyofu/image/upload/v1670010691/skills-tools/css-icon_jusqwv.png",
                         "https://res.cloudinary.com/dytlbyofu/image/upload/v1670010691/skills-tools/Html-icon_dtsivo.png",
@@ -303,8 +543,16 @@ export const SeedData = {
         }, 
         {
             name:   "Planificador de Gastos App",
-            tools:  ["ReactJs", "JavaScript", "Css", "Html"],
-            logos:  [   "https://res.cloudinary.com/dytlbyofu/image/upload/v1670010692/skills-tools/React-icon_wcrcad.png",
+            tools:  [ 
+                        {
+                            key: "40",
+                        },
+                        "ReactJs", "JavaScript", "Css", "Html"
+                    ],
+            logos:  [   {
+                            key: "4000",
+                        },
+                        "https://res.cloudinary.com/dytlbyofu/image/upload/v1670010692/skills-tools/React-icon_wcrcad.png",
                         "https://res.cloudinary.com/dytlbyofu/image/upload/v1670010691/skills-tools/js-logo_v6focr.png",
                         "https://res.cloudinary.com/dytlbyofu/image/upload/v1670010691/skills-tools/css-icon_jusqwv.png",
                         "https://res.cloudinary.com/dytlbyofu/image/upload/v1670010691/skills-tools/Html-icon_dtsivo.png",
@@ -314,8 +562,16 @@ export const SeedData = {
         }, 
         {
             name:   "CRM",
-            tools:  ["ReactJs", "JavaScript", "Css", "Html"],
-            logos:  [   "https://res.cloudinary.com/dytlbyofu/image/upload/v1670010692/skills-tools/React-icon_wcrcad.png",
+            tools:  [ 
+                        {
+                            key: "41",
+                        },
+                        "ReactJs", "JavaScript", "Css", "Html"
+                    ],
+            logos:  [   {
+                            key: "4100",
+                        },
+                        "https://res.cloudinary.com/dytlbyofu/image/upload/v1670010692/skills-tools/React-icon_wcrcad.png",
                         "https://res.cloudinary.com/dytlbyofu/image/upload/v1670010691/skills-tools/js-logo_v6focr.png",
                         "https://res.cloudinary.com/dytlbyofu/image/upload/v1670010691/skills-tools/css-icon_jusqwv.png",
                         "https://res.cloudinary.com/dytlbyofu/image/upload/v1670010691/skills-tools/Html-icon_dtsivo.png",
@@ -325,8 +581,16 @@ export const SeedData = {
         }, 
         {
             name:   "Pokemon App",
-            tools:  ["ReactJs", "JavaScript", "Css", "Html"],
-            logos:  [   "https://res.cloudinary.com/dytlbyofu/image/upload/v1670010692/skills-tools/React-icon_wcrcad.png",
+            tools:  [ 
+                        {
+                            key: "42",
+                        },
+                        "ReactJs", "JavaScript", "Css", "Html"
+                    ],
+            logos:  [   {
+                            key: "4200",
+                        },
+                        "https://res.cloudinary.com/dytlbyofu/image/upload/v1670010692/skills-tools/React-icon_wcrcad.png",
                         "https://res.cloudinary.com/dytlbyofu/image/upload/v1670010691/skills-tools/js-logo_v6focr.png",
                         "https://res.cloudinary.com/dytlbyofu/image/upload/v1670010691/skills-tools/css-icon_jusqwv.png",
                         "https://res.cloudinary.com/dytlbyofu/image/upload/v1670010691/skills-tools/Html-icon_dtsivo.png",
@@ -336,8 +600,16 @@ export const SeedData = {
         }, 
         {
             name:   "Bebida App",
-            tools:  ["ReactJs", "JavaScript", "Css", "Html"],
-            logos:  [   "https://res.cloudinary.com/dytlbyofu/image/upload/v1670010692/skills-tools/React-icon_wcrcad.png",
+            tools:  [ 
+                        {
+                            key: "43",
+                        },
+                        "ReactJs", "JavaScript", "Css", "Html"
+                    ],
+            logos:  [   {
+                            key: "4300",
+                        },
+                        "https://res.cloudinary.com/dytlbyofu/image/upload/v1670010692/skills-tools/React-icon_wcrcad.png",
                         "https://res.cloudinary.com/dytlbyofu/image/upload/v1670010691/skills-tools/js-logo_v6focr.png",
                         "https://res.cloudinary.com/dytlbyofu/image/upload/v1670010691/skills-tools/css-icon_jusqwv.png",
                         "https://res.cloudinary.com/dytlbyofu/image/upload/v1670010691/skills-tools/Html-icon_dtsivo.png",
@@ -347,8 +619,16 @@ export const SeedData = {
         }, 
         {
             name:   "Quiosco App",
-            tools:  ["ReactJs", "JavaScript", "Css", "Html"],
-            logos:  [   "https://res.cloudinary.com/dytlbyofu/image/upload/v1670010692/skills-tools/React-icon_wcrcad.png",
+            tools:  [ 
+                        {
+                            key: "44",
+                        },
+                        "ReactJs", "JavaScript", "Css", "Html"
+                    ],
+            logos:  [   {
+                            key: "4400",
+                        },
+                        "https://res.cloudinary.com/dytlbyofu/image/upload/v1670010692/skills-tools/React-icon_wcrcad.png",
                         "https://res.cloudinary.com/dytlbyofu/image/upload/v1670010691/skills-tools/js-logo_v6focr.png",
                         "https://res.cloudinary.com/dytlbyofu/image/upload/v1670010691/skills-tools/css-icon_jusqwv.png",
                         "https://res.cloudinary.com/dytlbyofu/image/upload/v1670010691/skills-tools/Html-icon_dtsivo.png",
@@ -358,8 +638,16 @@ export const SeedData = {
         }, 
         {
             name:   "Cotizador Autos App",
-            tools:  ["ReactJs", "JavaScript", "Css", "Html"],
-            logos:  [   "https://res.cloudinary.com/dytlbyofu/image/upload/v1670010692/skills-tools/React-icon_wcrcad.png",
+            tools:  [ 
+                        {
+                            key: "45",
+                        },
+                        "ReactJs", "JavaScript", "Css", "Html"
+                    ],
+            logos:  [   {
+                            key: "4500",
+                        },
+                        "https://res.cloudinary.com/dytlbyofu/image/upload/v1670010692/skills-tools/React-icon_wcrcad.png",
                         "https://res.cloudinary.com/dytlbyofu/image/upload/v1670010691/skills-tools/js-logo_v6focr.png",
                         "https://res.cloudinary.com/dytlbyofu/image/upload/v1670010691/skills-tools/css-icon_jusqwv.png",
                         "https://res.cloudinary.com/dytlbyofu/image/upload/v1670010691/skills-tools/Html-icon_dtsivo.png",
@@ -369,8 +657,16 @@ export const SeedData = {
         }, 
         {
             name:   "Noticias App",
-            tools:  ["ReactJs", "JavaScript", "Css", "Html"],
-            logos:  [   "https://res.cloudinary.com/dytlbyofu/image/upload/v1670010692/skills-tools/React-icon_wcrcad.png",
+            tools:  [ 
+                        {
+                            key: "46",
+                        },
+                        "ReactJs", "JavaScript", "Css", "Html"
+                    ],
+            logos:  [   {
+                            key: "4600",
+                        },
+                        "https://res.cloudinary.com/dytlbyofu/image/upload/v1670010692/skills-tools/React-icon_wcrcad.png",
                         "https://res.cloudinary.com/dytlbyofu/image/upload/v1670010691/skills-tools/js-logo_v6focr.png",
                         "https://res.cloudinary.com/dytlbyofu/image/upload/v1670010691/skills-tools/css-icon_jusqwv.png",
                         "https://res.cloudinary.com/dytlbyofu/image/upload/v1670010691/skills-tools/Html-icon_dtsivo.png",
@@ -380,8 +676,16 @@ export const SeedData = {
         }, 
         {
             name:   "Clima App",
-            tools:  ["ReactJs", "JavaScript", "Css", "Html"],
-            logos:  [   "https://res.cloudinary.com/dytlbyofu/image/upload/v1670010692/skills-tools/React-icon_wcrcad.png",
+            tools:  [ 
+                        {
+                            key: "47",
+                        },
+                        "ReactJs", "JavaScript", "Css", "Html"
+                    ],
+            logos:  [   {
+                            key: "4700",
+                        },
+                        "https://res.cloudinary.com/dytlbyofu/image/upload/v1670010692/skills-tools/React-icon_wcrcad.png",
                         "https://res.cloudinary.com/dytlbyofu/image/upload/v1670010691/skills-tools/js-logo_v6focr.png",
                         "https://res.cloudinary.com/dytlbyofu/image/upload/v1670010691/skills-tools/css-icon_jusqwv.png",
                         "https://res.cloudinary.com/dytlbyofu/image/upload/v1670010691/skills-tools/Html-icon_dtsivo.png",
@@ -393,8 +697,16 @@ export const SeedData = {
     VuePage: [
         {
             name:   "DayBook App",
-            tools:  ["VueJs", "JavaScript", "Css", "Html"],
-            logos:  [   "https://res.cloudinary.com/dytlbyofu/image/upload/v1670010692/skills-tools/Vue-icon_gwtj8g.png",
+            tools:  [ 
+                        {
+                            key: "48",
+                        },
+                        "VueJs", "JavaScript", "Css", "Html"
+                    ],
+            logos:  [   {
+                            key: "4800",
+                        },
+                        "https://res.cloudinary.com/dytlbyofu/image/upload/v1670010692/skills-tools/Vue-icon_gwtj8g.png",
                         "https://res.cloudinary.com/dytlbyofu/image/upload/v1670010691/skills-tools/js-logo_v6focr.png",
                         "https://res.cloudinary.com/dytlbyofu/image/upload/v1670010691/skills-tools/css-icon_jusqwv.png",
                         "https://res.cloudinary.com/dytlbyofu/image/upload/v1670010691/skills-tools/Html-icon_dtsivo.png",
@@ -404,8 +716,16 @@ export const SeedData = {
         }, 
         {
             name:   " Map App",
-            tools:  ["VueJs", "JavaScript", "Css", "Html"],
-            logos:  [   "https://res.cloudinary.com/dytlbyofu/image/upload/v1670010692/skills-tools/Vue-icon_gwtj8g.png",
+            tools:  [ 
+                        {
+                            key: "49",
+                        },
+                        "VueJs", "JavaScript", "Css", "Html"
+                    ],
+            logos:  [   {
+                            key: "4900",
+                        },
+                        "https://res.cloudinary.com/dytlbyofu/image/upload/v1670010692/skills-tools/Vue-icon_gwtj8g.png",
                         "https://res.cloudinary.com/dytlbyofu/image/upload/v1670010691/skills-tools/js-logo_v6focr.png",
                         "https://res.cloudinary.com/dytlbyofu/image/upload/v1670010691/skills-tools/css-icon_jusqwv.png",
                         "https://res.cloudinary.com/dytlbyofu/image/upload/v1670010691/skills-tools/Html-icon_dtsivo.png",
@@ -415,8 +735,16 @@ export const SeedData = {
         }, 
         {
             name:   "Credit Card",
-            tools:  ["VueJs", "JavaScript", "Css", "Html"],
-            logos:  [   "https://res.cloudinary.com/dytlbyofu/image/upload/v1670010692/skills-tools/Vue-icon_gwtj8g.png",
+            tools:  [ 
+                        {
+                            key: "50",
+                        },
+                        "VueJs", "JavaScript", "Css", "Html"
+                    ],
+            logos:  [   {
+                            key: "5000",
+                        },
+                        "https://res.cloudinary.com/dytlbyofu/image/upload/v1670010692/skills-tools/Vue-icon_gwtj8g.png",
                         "https://res.cloudinary.com/dytlbyofu/image/upload/v1670010691/skills-tools/js-logo_v6focr.png",
                         "https://res.cloudinary.com/dytlbyofu/image/upload/v1670010691/skills-tools/css-icon_jusqwv.png",
                         "https://res.cloudinary.com/dytlbyofu/image/upload/v1670010691/skills-tools/Html-icon_dtsivo.png",
@@ -426,8 +754,16 @@ export const SeedData = {
         }, 
         {
             name:   "Pokemon",
-            tools:  ["VueJs", "JavaScript", "Css", "Html"],
-            logos:  [   "https://res.cloudinary.com/dytlbyofu/image/upload/v1670010692/skills-tools/Vue-icon_gwtj8g.png",
+            tools:  [ 
+                        {
+                            key: "51",
+                        },
+                        "VueJs", "JavaScript", "Css", "Html"
+                    ],
+            logos:  [   {
+                            key: "5100",
+                        },
+                        "https://res.cloudinary.com/dytlbyofu/image/upload/v1670010692/skills-tools/Vue-icon_gwtj8g.png",
                         "https://res.cloudinary.com/dytlbyofu/image/upload/v1670010691/skills-tools/js-logo_v6focr.png",
                         "https://res.cloudinary.com/dytlbyofu/image/upload/v1670010691/skills-tools/css-icon_jusqwv.png",
                         "https://res.cloudinary.com/dytlbyofu/image/upload/v1670010691/skills-tools/Html-icon_dtsivo.png",
@@ -439,8 +775,16 @@ export const SeedData = {
     TailwindCssPage: [
         {
             name:   "Simple Cards",
-            tools:  ["Tailwindcss", "Html"],
-            logos:  [   "https://res.cloudinary.com/dytlbyofu/image/upload/v1670021494/skills-tools/TailwindLogo_ot5lzl.png",
+            tools:  [ 
+                        {
+                            key: "52",
+                        },
+                        "Tailwindcss", "Html"
+                    ],
+            logos:  [   {
+                            key: "5200",
+                        },
+                        "https://res.cloudinary.com/dytlbyofu/image/upload/v1670021494/skills-tools/TailwindLogo_ot5lzl.png",
                         "https://res.cloudinary.com/dytlbyofu/image/upload/v1670010691/skills-tools/Html-icon_dtsivo.png",
                     ],
             link:   "https://jair-vet.github.io/Cards-using-Tailwind/",
@@ -448,8 +792,16 @@ export const SeedData = {
         }, 
         {
             name:   "Shortly",
-            tools:  ["Tailwindcss", "Html"],
-            logos:  [   "https://res.cloudinary.com/dytlbyofu/image/upload/v1670021494/skills-tools/TailwindLogo_ot5lzl.png",
+            tools:  [ 
+                        {
+                            key: "53",
+                        },
+                        "Tailwindcss", "Html"
+                    ],
+            logos:  [   {
+                            key: "5300",
+                        },
+                        "https://res.cloudinary.com/dytlbyofu/image/upload/v1670021494/skills-tools/TailwindLogo_ot5lzl.png",
                         "https://res.cloudinary.com/dytlbyofu/image/upload/v1670010691/skills-tools/Html-icon_dtsivo.png",
                     ],
             link:   "https://jair-vet.github.io/Shortly-link-Tailwind/",
@@ -457,8 +809,16 @@ export const SeedData = {
         }, 
         {
             name:   "Testimonial Grid",
-            tools:  ["Tailwindcss", "Html"],
-            logos:  [   "https://res.cloudinary.com/dytlbyofu/image/upload/v1670021494/skills-tools/TailwindLogo_ot5lzl.png",
+            tools:  [ 
+                        {
+                            key: "54",
+                        },
+                        "Tailwindcss", "Html"
+                    ],
+            logos:  [   {
+                            key: "5400",
+                        },
+                        "https://res.cloudinary.com/dytlbyofu/image/upload/v1670021494/skills-tools/TailwindLogo_ot5lzl.png",
                         "https://res.cloudinary.com/dytlbyofu/image/upload/v1670010691/skills-tools/Html-icon_dtsivo.png",
                     ],
             link:   "https://jair-vet.github.io/Testimonial-Grid-Tailwind/",
@@ -466,8 +826,16 @@ export const SeedData = {
         }, 
         {
             name:   "Pricing Grid ",
-            tools:  ["Tailwindcss", "Html"],
-            logos:  [   "https://res.cloudinary.com/dytlbyofu/image/upload/v1670021494/skills-tools/TailwindLogo_ot5lzl.png",
+            tools:  [ 
+                        {
+                            key: "55",
+                        },
+                        "Tailwindcss", "Html"
+                    ],
+            logos:  [   {
+                            key: "5500",
+                        },
+                        "https://res.cloudinary.com/dytlbyofu/image/upload/v1670021494/skills-tools/TailwindLogo_ot5lzl.png",
                         "https://res.cloudinary.com/dytlbyofu/image/upload/v1670010691/skills-tools/Html-icon_dtsivo.png",
                     ],
             link:   "https://jair-vet.github.io/Pricing-Grid-Tailwind/",
@@ -475,8 +843,16 @@ export const SeedData = {
         }, 
         {
             name:   "Loop Studios",
-            tools:  ["Tailwindcss", "Html"],
-            logos:  [   "https://res.cloudinary.com/dytlbyofu/image/upload/v1670021494/skills-tools/TailwindLogo_ot5lzl.png",
+            tools:  [ 
+                        {
+                            key: "56",
+                        },
+                        "Tailwindcss", "Html"
+                    ],
+            logos:  [   {
+                            key: "5600",
+                        },
+                        "https://res.cloudinary.com/dytlbyofu/image/upload/v1670021494/skills-tools/TailwindLogo_ot5lzl.png",
                         "https://res.cloudinary.com/dytlbyofu/image/upload/v1670010691/skills-tools/Html-icon_dtsivo.png",
                     ],
             link:   "https://loop-studios-tailwind-one.vercel.app/",
@@ -484,8 +860,16 @@ export const SeedData = {
         }, 
         {
             name:   "Perfil",
-            tools:  ["Tailwindcss", "Html"],
-            logos:  [   "https://res.cloudinary.com/dytlbyofu/image/upload/v1670021494/skills-tools/TailwindLogo_ot5lzl.png",
+            tools:  [ 
+                        {
+                            key: "57",
+                        },
+                        "Tailwindcss", "Html"
+                    ],
+            logos:  [   {
+                            key: "5700",
+                        },
+                        "https://res.cloudinary.com/dytlbyofu/image/upload/v1670021494/skills-tools/TailwindLogo_ot5lzl.png",
                         "https://res.cloudinary.com/dytlbyofu/image/upload/v1670010691/skills-tools/Html-icon_dtsivo.png",
                     ],
             link:   "https://jair-vet.github.io/My-Perfil-Tailwind/",
@@ -493,8 +877,16 @@ export const SeedData = {
         }, 
         {
             name:   "Email Card",
-            tools:  ["Tailwindcss", "Html"],
-            logos:  [   "https://res.cloudinary.com/dytlbyofu/image/upload/v1670021494/skills-tools/TailwindLogo_ot5lzl.png",
+            tools:  [ 
+                        {
+                            key: "58",
+                        },
+                        "Tailwindcss", "Html"
+                    ],
+            logos:  [   {
+                            key: "5800",
+                        },
+                        "https://res.cloudinary.com/dytlbyofu/image/upload/v1670021494/skills-tools/TailwindLogo_ot5lzl.png",
                         "https://res.cloudinary.com/dytlbyofu/image/upload/v1670010691/skills-tools/Html-icon_dtsivo.png",
                     ],
             link:   "https://jair-vet.github.io/Email-Card-Tailwind/",
@@ -502,8 +894,16 @@ export const SeedData = {
         }, 
         {
             name:   "Boostiger",
-            tools:  ["Tailwindcss", "Html"],
-            logos:  [   "https://res.cloudinary.com/dytlbyofu/image/upload/v1670021494/skills-tools/TailwindLogo_ot5lzl.png",
+            tools:  [ 
+                        {
+                            key: "59",
+                        },
+                        "Tailwindcss", "Html"
+                    ],
+            logos:  [   {
+                            key: "5900",
+                        },
+                        "https://res.cloudinary.com/dytlbyofu/image/upload/v1670021494/skills-tools/TailwindLogo_ot5lzl.png",
                         "https://res.cloudinary.com/dytlbyofu/image/upload/v1670010691/skills-tools/Html-icon_dtsivo.png",
                     ],
             link:   "https://jair-vet.github.io/Boostiger/",
@@ -511,8 +911,16 @@ export const SeedData = {
         }, 
         {
             name:   "Book Mark",
-            tools:  ["Tailwindcss", "Html"],
-            logos:  [   "https://res.cloudinary.com/dytlbyofu/image/upload/v1670021494/skills-tools/TailwindLogo_ot5lzl.png",
+            tools:  [ 
+                        {
+                            key: "60",
+                        },
+                        "Tailwindcss", "Html"
+                    ],
+            logos:  [   {
+                            key: "6000",
+                        },
+                        "https://res.cloudinary.com/dytlbyofu/image/upload/v1670021494/skills-tools/TailwindLogo_ot5lzl.png",
                         "https://res.cloudinary.com/dytlbyofu/image/upload/v1670010691/skills-tools/Html-icon_dtsivo.png",
                     ],
             link:   "https://jair-vet.github.io/Bookmark-Tailwind/#faq",
@@ -520,8 +928,16 @@ export const SeedData = {
         }, 
         {
             name:   "Fylo",
-            tools:  ["Tailwindcss", "Html"],
-            logos:  [   "https://res.cloudinary.com/dytlbyofu/image/upload/v1670021494/skills-tools/TailwindLogo_ot5lzl.png",
+            tools:  [ 
+                        {
+                            key: "61",
+                        },
+                        "Tailwindcss", "Html"
+                    ],
+            logos:  [   {
+                            key: "6100",
+                        },
+                        "https://res.cloudinary.com/dytlbyofu/image/upload/v1670021494/skills-tools/TailwindLogo_ot5lzl.png",
                         "https://res.cloudinary.com/dytlbyofu/image/upload/v1670010691/skills-tools/Html-icon_dtsivo.png",
                     ],
             link:   "https://jair-vet.github.io/Fylo-Tailwind/",
@@ -529,8 +945,16 @@ export const SeedData = {
         }, 
         {
             name:   "Product Model Card",
-            tools:  ["Tailwindcss", "Html"],
-            logos:  [   "https://res.cloudinary.com/dytlbyofu/image/upload/v1670021494/skills-tools/TailwindLogo_ot5lzl.png",
+            tools:  [ 
+                        {
+                            key: "62",
+                        },
+                        "Tailwindcss", "Html"
+                    ],
+            logos:  [   {
+                            key: "6200",
+                        },
+                        "https://res.cloudinary.com/dytlbyofu/image/upload/v1670021494/skills-tools/TailwindLogo_ot5lzl.png",
                         "https://res.cloudinary.com/dytlbyofu/image/upload/v1670010691/skills-tools/Html-icon_dtsivo.png",
                     ],
             link:   "https://jair-vet.github.io/Producto-model-Card/",
@@ -538,8 +962,16 @@ export const SeedData = {
         }, 
         {
             name:   "Image-Gallery",
-            tools:  ["Tailwindcss", "Html"],
-            logos:  [   "https://res.cloudinary.com/dytlbyofu/image/upload/v1670021494/skills-tools/TailwindLogo_ot5lzl.png",
+            tools:  [ 
+                        {
+                            key: "63",
+                        },
+                        "Tailwindcss", "Html"
+                    ],
+            logos:  [   {
+                            key: "6300",
+                        },
+                        "https://res.cloudinary.com/dytlbyofu/image/upload/v1670021494/skills-tools/TailwindLogo_ot5lzl.png",
                         "https://res.cloudinary.com/dytlbyofu/image/upload/v1670010691/skills-tools/Html-icon_dtsivo.png",
                     ],
             link:   "https://jair-vet.github.io/Image-Gallery/",
@@ -547,8 +979,16 @@ export const SeedData = {
         }, 
         {
             name:   "Hamburger NavBar",
-            tools:  ["Tailwindcss", "Html"],
-            logos:  [   "https://res.cloudinary.com/dytlbyofu/image/upload/v1670021494/skills-tools/TailwindLogo_ot5lzl.png",
+            tools:  [ 
+                        {
+                            key: "64",
+                        },
+                        "Tailwindcss", "Html"
+                    ],
+            logos:  [   {
+                            key: "6400",
+                        },
+                        "https://res.cloudinary.com/dytlbyofu/image/upload/v1670021494/skills-tools/TailwindLogo_ot5lzl.png",
                         "https://res.cloudinary.com/dytlbyofu/image/upload/v1670010691/skills-tools/Html-icon_dtsivo.png",
                     ],
             link:   "https://jair-vet.github.io/SimpleNavbar-Tailwindcss/",
@@ -557,7 +997,10 @@ export const SeedData = {
         {
             name:   "Pagination",
             tools:  ["Tailwindcss", "Html"],
-            logos:  [   "https://res.cloudinary.com/dytlbyofu/image/upload/v1670021494/skills-tools/TailwindLogo_ot5lzl.png",
+            logos:  [   {
+                            key: "65",
+                        },
+                        "https://res.cloudinary.com/dytlbyofu/image/upload/v1670021494/skills-tools/TailwindLogo_ot5lzl.png",
                         "https://res.cloudinary.com/dytlbyofu/image/upload/v1670010691/skills-tools/Html-icon_dtsivo.png",
                     ],
             link:   "https://jair-vet.github.io/Paginacion-TailwindCss/",
@@ -565,8 +1008,16 @@ export const SeedData = {
         }, 
         {
             name:   "Side Bar",
-            tools:  ["Tailwindcss", "Html"],
-            logos:  [   "https://res.cloudinary.com/dytlbyofu/image/upload/v1670021494/skills-tools/TailwindLogo_ot5lzl.png",
+            tools:  [ 
+                        {
+                            key: "66",
+                        },
+                        "Tailwindcss", "Html"
+                    ],
+            logos:  [   {
+                            key: "6600",
+                        },
+                        "https://res.cloudinary.com/dytlbyofu/image/upload/v1670021494/skills-tools/TailwindLogo_ot5lzl.png",
                         "https://res.cloudinary.com/dytlbyofu/image/upload/v1670010691/skills-tools/Html-icon_dtsivo.png",
                     ],
             link:   "https://jair-vet.github.io/SideBar-TailwindCss/",
