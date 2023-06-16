@@ -36,12 +36,9 @@ export const InitialCard = () => {
                             target="_blank"><i className="fa-brands fa-instagram"></i>
                         </a>
                     </div>
-                </div>
-                <div className="mt-4 p-2">
-                    <h1 className="text-4xl font-extrabold">Work Tools </h1>
-                </div>
-                <div className="p-2">
-                    <Typed />
+                    <div className="p-2">
+                        <Typed />
+                    </div>
                 </div>
             </section>
         </>
