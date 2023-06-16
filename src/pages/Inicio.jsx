@@ -7,6 +7,7 @@ import { Footer } from "../components/Footer"
 import { Skills } from "../components/Skills"
 
 import {efectoHabilidades} from '../helpers/script'
+import { Proyectos } from "../components/Proyectos"
 
 export const Inicio = () => {
   window.onscroll = function(){
@@ -26,6 +27,8 @@ export const Inicio = () => {
 
         {/* Portafolio Component */}
         <Portafolio />
+
+        <Proyectos />
 
         {/* Certificados Component */}
         <Certificados />
