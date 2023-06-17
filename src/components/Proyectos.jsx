@@ -14,12 +14,19 @@ export const Proyectos = () => {
     const [changeArray, setChangeArray] = useState(true)
     
     useEffect(() => {
-        setInterval(() => {
-            setChangeArray(false)
-            randomProjects()
-            setChangeArray(true)
-        }, 7000)
-    }, [useState])
+        if (changeArray){
+            setInterval(() => {
+                randomProjects()
+                setChangeArray(false)
+            }, 7000)
+        }
+        if (!changeArray){
+            setInterval(() => {
+                randomProjects()
+                setChangeArray(true)
+            }, 7000)
+        }
+    }, [changeArray])
     
 
 
@@ -44,7 +51,7 @@ export const Proyectos = () => {
                                 changeArray 
                                 ? // Si es true
                                 listComplete.map((project) => (
-                                    <div className="p-1 m-3 shadow-xl rounded-md hover:bg-indigo-400 hover:-translate-y-6 duration-300" key={project.name}>
+                                    <div className="ease-in-out p-1 m-3 shadow-xl rounded-md hover:bg-indigo-400 hover:-translate-y-6 duration-300" key={project.name}>
                                         {/* <!-- Image 1 --> */}
                                         <div className="relative group ">
                                             <a  href={ project.link } target="_blank" key={ project.name }>
@@ -66,18 +73,21 @@ export const Proyectos = () => {
                                 : // Si es False
 
                                 listComplete.map((project) => (
-                                    <div className="p-1 m-3 shadow-2xl rounded-md hover:bg-indigo-400 duration-300" key={project.name}>
+                                    <div className="ease-in-out p-1 m-3 shadow-xl rounded-md hover:bg-indigo-400 hover:-translate-y-6 duration-300" key={project.name}>
                                         {/* <!-- Image 1 --> */}
-                                        <div className="relative group">
-                                            <img src={ project.image  } alt={ project.name } className="w-96 h-60 rounded-xl" />
-                                            <div className="absolute bottom-0 left-0 right-0 p-2 px-4 text-white duration-500 
-                                                        bg-black opacity-0 group-hover:opacity-100 bg-opacity-60 rounded-b-xl">
-                                                <div className="flex justify-between w-full flex-row items-center">
-                                                    <div className="">
-                                                        <p className="text-sm font-bold items-center"> { project.name } </p>
+                                        <div className="relative group ">
+                                            <a  href={ project.link } target="_blank" key={ project.name }>
+                                                <img src={ project.image  } alt={ project.name } className="w-96 h-60 rounded-md" />
+                                                <div className="absolute bottom-0 left-0 right-0 p-2 px-4 text-white duration-500 
+                                                            bg-black opacity-0 group-hover:opacity-100 bg-opacity-60 rounded-b-xl">
+                                                    <div className="flex justify-between w-full flex-row items-center">
+                                                        <div className="">
+                                                            <p className="text-sm font-bold items-center"> { project.name } </p>
+                                                        </div>
                                                     </div>
-                                                </div>
-                                            </div> 
+                                                </div> 
+                                                
+                                            </a>
                                         </div>
                                     </div>
                                 ))
