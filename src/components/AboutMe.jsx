@@ -4,20 +4,30 @@ export const AboutMe = () => {
     <>
         {/* SECCION SOBRE MI  */}
         <section id="sobremi" className="sobremi  bg-blackBg">
-            <div className="contenido-seccion bg-blackBg">
-                <h2 className="font-mono text-center text-5xl text-white p-8 bg-blackBg">About me</h2>
+            <div className="contenido-seccion bg-blackBg mt-[100px]">
                 <div className="text-left bg-blackBg">
-                    <p className="px-10 text-white">
-                        <span className="text-2xl font-bold text-greenBorder font-mono typed">Hi, I'm Jair Aceves  </span>
-                        I am a kind, sociable and responsible person with learning in many areas of IT.
-                        I like web development, in my free time 
-                        I like to listen to music and create new ideas to develop new pages.
-                        I am a person who likes to work with clear objectives.
-                        I like to continue learning new tools to be able to improve my achievements.
-                    </p>
-                    <p className="px-10 text-white mb-10">
-                        I have many abilities which I can overexploit in order to deliver the best of myself and thus deliver a great job.
-                    </p>
+                    <h2 className="font-mono text-center text-5xl text-white p-8 bg-blackBg">About me</h2>
+                    <div className="md:flex md:flex-row flex-col items-center mb-4">
+                        <div className="block">
+                            <img 
+                                className="block border-solid border-[8px] border-greenBorder w-[60%] m-auto rounded-[100%] mb-6"
+                                src="https://res.cloudinary.com/dytlbyofu/image/upload/v1673887901/Portafolio%20assets/boss_sm6orb.jpg" alt="">
+                            </img>
+                        </div>
+                        <div>
+                            <p className="px-10 text-white">
+                                <span className="text-2xl font-bold text-greenBorder font-mono typed">Hi, I'm Jair Aceves  </span>
+                                I am a kind, sociable and responsible person with learning in many areas of IT.
+                                I like web development, in my free time 
+                                I like to listen to music and create new ideas to develop new pages.
+                                I am a person who likes to work with clear objectives.
+                                I like to continue learning new tools to be able to improve my achievements.
+                            </p>
+                            <p className="px-10 text-white mb-10">
+                                I have many abilities which I can overexploit in order to deliver the best of myself and thus deliver a great job.
+                            </p>
+                        </div>
+                    </div>
                 </div>
 
                 <div className="md:flex gap-2 bg-blackBg">
