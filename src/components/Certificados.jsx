@@ -83,6 +83,20 @@ export const Certificados = () => {
                             className="w-[120px]"
                     ></img>
                 </a>
+                {/* <!-- Next.jsx --> */}
+                <a href="https://res.cloudinary.com/dytlbyofu/image/upload/v1687227735/Certificates/Next_umiyph.pdf" target="blank">
+                    <img src="https://res.cloudinary.com/dytlbyofu/image/upload/v1698447263/skills-tools/nextjs_hibjpc.svg" 
+                            alt="Next.jsx"
+                            className="w-[100px]"
+                    ></img>
+                </a>
+                {/* <!-- React.jsx --> */}
+                <a href="https://res.cloudinary.com/dytlbyofu/image/upload/v1672859768/Certificates/react_eoec9q.pdf" target="blank">
+                    <img src="https://res.cloudinary.com/dytlbyofu/image/upload/v1698447440/skills-tools/react_unkzqc.svg" 
+                            alt="React.jsx"
+                            className="w-[100px]"
+                    ></img>
+                </a>
             </div>
         </section>
     </>
