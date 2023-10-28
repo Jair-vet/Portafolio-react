@@ -16,9 +16,9 @@ export const JavaScript = () => {
             JavaScriptPage.map(proyect => (
               <a className="a-tag-container" href={ proyect.link } target="_blank" key={ proyect.name }>
                 <img
-                className="img-tag-container"
-                src={ proyect.image } 
-                alt="" 
+                  className="img-tag-container"
+                  src={ proyect.image } 
+                  alt="" 
                 />
                 
               </a>

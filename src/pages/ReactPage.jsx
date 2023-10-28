@@ -6,6 +6,8 @@ export const React = () => {
 
   const { ReactPage } = SeedData
 
+  console.log(ReactPage);
+
   return (
     <>
       <Titulo titulo='React Js'/>

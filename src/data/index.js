@@ -409,6 +409,25 @@ export const SeedData = {
     ],
     ReactPage: [
         {
+            name:   "BoosTiger Shop",
+            tools:  [ 
+                        {
+                            key: "43",
+                        },
+                        "ReactJs", "JavaScript", "Css", "Html", "Tailwindcss", "Next.js"
+                    ],
+            logos:  [   {
+                            key: "4300",
+                        },
+                        "https://res.cloudinary.com/dytlbyofu/image/upload/v1670010692/skills-tools/React-icon_wcrcad.png",
+                        "https://res.cloudinary.com/dytlbyofu/image/upload/v1670010691/skills-tools/js-logo_v6focr.png",
+                        "https://res.cloudinary.com/dytlbyofu/image/upload/v1670010691/skills-tools/css-icon_jusqwv.png",
+                        "https://res.cloudinary.com/dytlbyofu/image/upload/v1670010691/skills-tools/Html-icon_dtsivo.png",
+                    ],
+            link:   "https://boostigershop.onrender.com/",
+            image:  "https://res.cloudinary.com/dytlbyofu/image/upload/v1698447739/Applications%20made/Boostiger_ryozjp.png",
+        }, 
+        {
             name:   "GiffExpert App",
             tools:  [ 
                         {
@@ -602,25 +621,6 @@ export const SeedData = {
             name:   "Bebida App",
             tools:  [ 
                         {
-                            key: "43",
-                        },
-                        "ReactJs", "JavaScript", "Css", "Html"
-                    ],
-            logos:  [   {
-                            key: "4300",
-                        },
-                        "https://res.cloudinary.com/dytlbyofu/image/upload/v1670010692/skills-tools/React-icon_wcrcad.png",
-                        "https://res.cloudinary.com/dytlbyofu/image/upload/v1670010691/skills-tools/js-logo_v6focr.png",
-                        "https://res.cloudinary.com/dytlbyofu/image/upload/v1670010691/skills-tools/css-icon_jusqwv.png",
-                        "https://res.cloudinary.com/dytlbyofu/image/upload/v1670010691/skills-tools/Html-icon_dtsivo.png",
-                    ],
-            link:   "https://elaborate-squirrel-b448d5.netlify.app/",
-            image:  "https://res.cloudinary.com/dytlbyofu/image/upload/v1682048088/Applications%20made/Pasos_para_hacer_la_bebida_mi1p6q.png",
-        }, 
-        {
-            name:   "Quiosco App",
-            tools:  [ 
-                        {
                             key: "44",
                         },
                         "ReactJs", "JavaScript", "Css", "Html"
@@ -633,11 +633,11 @@ export const SeedData = {
                         "https://res.cloudinary.com/dytlbyofu/image/upload/v1670010691/skills-tools/css-icon_jusqwv.png",
                         "https://res.cloudinary.com/dytlbyofu/image/upload/v1670010691/skills-tools/Html-icon_dtsivo.png",
                     ],
-            link:   "https://quiosco-app-react-production.up.railway.app/",
-            image:  "https://res.cloudinary.com/dytlbyofu/image/upload/v1682048088/Applications%20made/QuioscoApp_gvifvs.png",
+            link:   "https://elaborate-squirrel-b448d5.netlify.app/",
+            image:  "https://res.cloudinary.com/dytlbyofu/image/upload/v1682048088/Applications%20made/Pasos_para_hacer_la_bebida_mi1p6q.png",
         }, 
         {
-            name:   "Cotizador Autos App",
+            name:   "Quiosco App",
             tools:  [ 
                         {
                             key: "45",
@@ -652,11 +652,11 @@ export const SeedData = {
                         "https://res.cloudinary.com/dytlbyofu/image/upload/v1670010691/skills-tools/css-icon_jusqwv.png",
                         "https://res.cloudinary.com/dytlbyofu/image/upload/v1670010691/skills-tools/Html-icon_dtsivo.png",
                     ],
-            link:   "https://merry-rabanadas-300c12.netlify.app/",
-            image:  "https://res.cloudinary.com/dytlbyofu/image/upload/v1682048087/Applications%20made/Cotizador_de_Seguros_mnps1w.png",
+            link:   "https://quiosco-app-react-production.up.railway.app/",
+            image:  "https://res.cloudinary.com/dytlbyofu/image/upload/v1682048088/Applications%20made/QuioscoApp_gvifvs.png",
         }, 
         {
-            name:   "Noticias App",
+            name:   "Cotizador Autos App",
             tools:  [ 
                         {
                             key: "46",
@@ -671,11 +671,11 @@ export const SeedData = {
                         "https://res.cloudinary.com/dytlbyofu/image/upload/v1670010691/skills-tools/css-icon_jusqwv.png",
                         "https://res.cloudinary.com/dytlbyofu/image/upload/v1670010691/skills-tools/Html-icon_dtsivo.png",
                     ],
-            link:   "https://poetic-churros-716faf.netlify.app",
-            image:  "https://res.cloudinary.com/dytlbyofu/image/upload/v1682048088/Applications%20made/Noticias_App_ngvuzd.png",
+            link:   "https://merry-rabanadas-300c12.netlify.app/",
+            image:  "https://res.cloudinary.com/dytlbyofu/image/upload/v1682048087/Applications%20made/Cotizador_de_Seguros_mnps1w.png",
         }, 
         {
-            name:   "Clima App",
+            name:   "Noticias App",
             tools:  [ 
                         {
                             key: "47",
@@ -684,6 +684,25 @@ export const SeedData = {
                     ],
             logos:  [   {
                             key: "4700",
+                        },
+                        "https://res.cloudinary.com/dytlbyofu/image/upload/v1670010692/skills-tools/React-icon_wcrcad.png",
+                        "https://res.cloudinary.com/dytlbyofu/image/upload/v1670010691/skills-tools/js-logo_v6focr.png",
+                        "https://res.cloudinary.com/dytlbyofu/image/upload/v1670010691/skills-tools/css-icon_jusqwv.png",
+                        "https://res.cloudinary.com/dytlbyofu/image/upload/v1670010691/skills-tools/Html-icon_dtsivo.png",
+                    ],
+            link:   "https://poetic-churros-716faf.netlify.app",
+            image:  "https://res.cloudinary.com/dytlbyofu/image/upload/v1682048088/Applications%20made/Noticias_App_ngvuzd.png",
+        }, 
+        {
+            name:   "Clima App",
+            tools:  [ 
+                        {
+                            key: "48",
+                        },
+                        "ReactJs", "JavaScript", "Css", "Html"
+                    ],
+            logos:  [   {
+                            key: "4800",
                         },
                         "https://res.cloudinary.com/dytlbyofu/image/upload/v1670010692/skills-tools/React-icon_wcrcad.png",
                         "https://res.cloudinary.com/dytlbyofu/image/upload/v1670010691/skills-tools/js-logo_v6focr.png",
@@ -699,7 +718,7 @@ export const SeedData = {
             name:   "DayBook App",
             tools:  [ 
                         {
-                            key: "48",
+                            key: "49",
                         },
                         "VueJs", "JavaScript", "Css", "Html"
                     ],
@@ -718,7 +737,7 @@ export const SeedData = {
             name:   " Map App",
             tools:  [ 
                         {
-                            key: "49",
+                            key: "50",
                         },
                         "VueJs", "JavaScript", "Css", "Html"
                     ],
@@ -737,7 +756,7 @@ export const SeedData = {
             name:   "Credit Card",
             tools:  [ 
                         {
-                            key: "50",
+                            key: "51",
                         },
                         "VueJs", "JavaScript", "Css", "Html"
                     ],
@@ -756,7 +775,7 @@ export const SeedData = {
             name:   "Pokemon",
             tools:  [ 
                         {
-                            key: "51",
+                            key: "52",
                         },
                         "VueJs", "JavaScript", "Css", "Html"
                     ],
@@ -777,7 +796,7 @@ export const SeedData = {
             name:   "Simple Cards",
             tools:  [ 
                         {
-                            key: "52",
+                            key: "53",
                         },
                         "Tailwindcss", "Html"
                     ],
@@ -794,7 +813,7 @@ export const SeedData = {
             name:   "Shortly",
             tools:  [ 
                         {
-                            key: "53",
+                            key: "54",
                         },
                         "Tailwindcss", "Html"
                     ],
@@ -811,7 +830,7 @@ export const SeedData = {
             name:   "Testimonial Grid",
             tools:  [ 
                         {
-                            key: "54",
+                            key: "55",
                         },
                         "Tailwindcss", "Html"
                     ],
@@ -828,7 +847,7 @@ export const SeedData = {
             name:   "Pricing Grid ",
             tools:  [ 
                         {
-                            key: "55",
+                            key: "56",
                         },
                         "Tailwindcss", "Html"
                     ],
@@ -845,7 +864,7 @@ export const SeedData = {
             name:   "Loop Studios",
             tools:  [ 
                         {
-                            key: "56",
+                            key: "57",
                         },
                         "Tailwindcss", "Html"
                     ],
@@ -862,7 +881,7 @@ export const SeedData = {
             name:   "Perfil",
             tools:  [ 
                         {
-                            key: "57",
+                            key: "58",
                         },
                         "Tailwindcss", "Html"
                     ],
@@ -879,7 +898,7 @@ export const SeedData = {
             name:   "Email Card",
             tools:  [ 
                         {
-                            key: "58",
+                            key: "59",
                         },
                         "Tailwindcss", "Html"
                     ],
@@ -896,7 +915,7 @@ export const SeedData = {
             name:   "Boostiger",
             tools:  [ 
                         {
-                            key: "59",
+                            key: "60",
                         },
                         "Tailwindcss", "Html"
                     ],
@@ -913,7 +932,7 @@ export const SeedData = {
             name:   "Book Mark",
             tools:  [ 
                         {
-                            key: "60",
+                            key: "61",
                         },
                         "Tailwindcss", "Html"
                     ],
@@ -930,7 +949,7 @@ export const SeedData = {
             name:   "Fylo",
             tools:  [ 
                         {
-                            key: "61",
+                            key: "62",
                         },
                         "Tailwindcss", "Html"
                     ],
@@ -947,7 +966,7 @@ export const SeedData = {
             name:   "Product Model Card",
             tools:  [ 
                         {
-                            key: "62",
+                            key: "63",
                         },
                         "Tailwindcss", "Html"
                     ],
@@ -964,7 +983,7 @@ export const SeedData = {
             name:   "Image-Gallery",
             tools:  [ 
                         {
-                            key: "63",
+                            key: "64",
                         },
                         "Tailwindcss", "Html"
                     ],
@@ -981,7 +1000,7 @@ export const SeedData = {
             name:   "Hamburger NavBar",
             tools:  [ 
                         {
-                            key: "64",
+                            key: "65",
                         },
                         "Tailwindcss", "Html"
                     ],
@@ -998,7 +1017,7 @@ export const SeedData = {
             name:   "Pagination",
             tools:  ["Tailwindcss", "Html"],
             logos:  [   {
-                            key: "65",
+                            key: "66",
                         },
                         "https://res.cloudinary.com/dytlbyofu/image/upload/v1670021494/skills-tools/TailwindLogo_ot5lzl.png",
                         "https://res.cloudinary.com/dytlbyofu/image/upload/v1670010691/skills-tools/Html-icon_dtsivo.png",
@@ -1010,7 +1029,7 @@ export const SeedData = {
             name:   "Side Bar",
             tools:  [ 
                         {
-                            key: "66",
+                            key: "67",
                         },
                         "Tailwindcss", "Html"
                     ],
