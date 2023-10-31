@@ -191,10 +191,46 @@ export const SeedData = {
     ],
     JavaScriptPage: [
         { 
+            name:   "New Yer Countdown App",
+            tools:  [ 
+                        {
+                            key: "211",
+                        },
+                        "JavaScript", "Css", "Html"
+                    ],
+            logos:  [   {
+                            key: "2120",
+                        },
+                        "https://res.cloudinary.com/dytlbyofu/image/upload/v1670010691/skills-tools/js-logo_v6focr.png",
+                        "https://res.cloudinary.com/dytlbyofu/image/upload/v1670010691/skills-tools/css-icon_jusqwv.png",
+                        "https://res.cloudinary.com/dytlbyofu/image/upload/v1670010691/skills-tools/Html-icon_dtsivo.png",
+                    ],
+            link:   "https://jair-vet.github.io/New-Year-Countdown/",
+            image:  "https://res.cloudinary.com/dytlbyofu/image/upload/v1682048088/Applications%20made/New_Year_CountDown_ae8ovw.png",
+        }, 
+        { 
+            name:   "Tic-tac-toe App",
+            tools:  [ 
+                        {
+                            key: "212",
+                        },
+                        "JavaScript", "Css", "Html"
+                    ],
+            logos:  [   {
+                            key: "2130",
+                        },
+                        "https://res.cloudinary.com/dytlbyofu/image/upload/v1670010691/skills-tools/js-logo_v6focr.png",
+                        "https://res.cloudinary.com/dytlbyofu/image/upload/v1670010691/skills-tools/css-icon_jusqwv.png",
+                        "https://res.cloudinary.com/dytlbyofu/image/upload/v1670010691/skills-tools/Html-icon_dtsivo.png",
+                    ],
+            link:   "https://jair-vet.github.io/Tic-tac-toe/",
+            image:  "https://res.cloudinary.com/dytlbyofu/image/upload/v1682048087/Applications%20made/TIic_Tac_Toe_sko9d5.png",
+        }, 
+        { 
             name:   "Cine Booking App",
             tools:  [ 
                         {
-                            key: "21",
+                            key: "213",
                         },
                         "JavaScript", "Css", "Html"
                     ],
@@ -446,6 +482,23 @@ export const SeedData = {
             link:   "https://journal-app-react-ten.vercel.app/",
             image:  "https://res.cloudinary.com/dytlbyofu/image/upload/v1698684788/Applications%20made/Journal_App_czry3z.png",
         }, 
+        { 
+            name:   "AGE CALCULATOR",
+            proyect: "new",
+            key: "210",
+            tools:  [ 
+                        "JavaScript", "Css", "Html"
+                    ],
+            logos:  [   {
+                            key: "2110",
+                        },
+                        "https://res.cloudinary.com/dytlbyofu/image/upload/v1670010691/skills-tools/js-logo_v6focr.png",
+                        "https://res.cloudinary.com/dytlbyofu/image/upload/v1670010691/skills-tools/css-icon_jusqwv.png",
+                        "https://res.cloudinary.com/dytlbyofu/image/upload/v1670010691/skills-tools/Html-icon_dtsivo.png",
+                    ],
+            link:   "https://649364857d4eb116fda07ffa--lustrous-crostata-c70f58.netlify.app/",
+            image:  "https://res.cloudinary.com/dytlbyofu/image/upload/v1698779419/Applications%20made/age-calculator_wzyygm.png",
+        }, 
         {
             name:   "GiffExpert App",
             tools:  [ 
@@ -600,7 +653,6 @@ export const SeedData = {
         }, 
         {
             name:   "CRM-Clients",
-            proyect: "new",
             tools:  [ 
                         {
                             key: "41",

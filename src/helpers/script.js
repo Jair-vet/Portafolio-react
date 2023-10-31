@@ -28,11 +28,15 @@ export const  efectoHabilidades = () => {
         habilidades[3].classList.add("taildwind");
         habilidades[4].classList.add("pwa");
         habilidades[5].classList.add("postman");
-        habilidades[6].classList.add("javascript");
-        habilidades[7].classList.add("react");
-        habilidades[8].classList.add("vue");
-        habilidades[9].classList.add("node");
-        habilidades[10].classList.add("sql");
+        habilidades[6].classList.add("python");
+        habilidades[7].classList.add("javascript");
+        habilidades[8].classList.add("typescript");
+        habilidades[9].classList.add("react");
+        habilidades[10].classList.add("vue");
+        habilidades[11].classList.add("node");
+        habilidades[12].classList.add("sql");
+        habilidades[13].classList.add("postgresql");
+        habilidades[14].classList.add("angular");
     }
 }
 

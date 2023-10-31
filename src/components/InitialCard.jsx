@@ -27,6 +27,9 @@ export const InitialCard = () => {
                                         <span style={{'--i' : 14}} className='w-full'><img src="https://res.cloudinary.com/dytlbyofu/image/upload/v1670010691/skills-tools/docker-lcon_t9mlir.webp" className='mt-3 ml-1'></img></span>
                                         <span style={{'--i' : 15}} className='w-full'><img src="https://res.cloudinary.com/dytlbyofu/image/upload/v1689608552/porfolio%20tools/next-js-icon_h5luaz.png"></img></span>
                                         <span style={{'--i' : 16}} className='w-full'><img src="https://res.cloudinary.com/dytlbyofu/image/upload/v1689608684/porfolio%20tools/bootstrap-icon_wvw0yb.png"></img></span>
+                                        <span style={{'--i' : 17}} className='w-full'><img src="https://res.cloudinary.com/dytlbyofu/image/upload/v1698776852/skills-tools/Postgresql_elephant_logo_ky4vip.png" className='mt-3 ml-1'></img></span>
+                                        <span style={{'--i' : 18}} className='w-full'><img src="https://res.cloudinary.com/dytlbyofu/image/upload/v1698778148/skills-tools/angular_logo_jaovco.png"></img></span>
+                                        <span style={{'--i' : 19}} className='w-full'><img src="https://res.cloudinary.com/dytlbyofu/image/upload/v1670010692/skills-tools/typeScript-icon_z6xmpa.png"></img></span>
                                     </div>
                                 </div>
                             <div className="background-circle border-2 border-greenBorder"></div>

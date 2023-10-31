@@ -12,7 +12,6 @@ body {
     background-color: #1e2326;
 }
 .bg-dark-pattern {
-    background-image: url(https://www.traversymedia.com/images/bg-pattern-1.png);
     color: #fff;
 }
 
@@ -282,7 +281,7 @@ h3{
 }
 @keyframes docker {
     0%{width: 0%;}
-    100%{width: 30%;}
+    100%{width: 80%;}
 }
 
 .skills .skill .htmlcss{
@@ -317,7 +316,15 @@ h3{
 }
 @keyframes postman {
     0%{width: 0%;}
-    100%{width: 70%;}
+    100%{width: 80%;}
+}
+.skills .skill .python{
+    width: 0%;
+    animation: 2s sql forwards;
+}
+@keyframes python {
+    0%{width: 0%;}
+    100%{width: 50%;}
 }
 
 .skills .skill .javascript{
@@ -325,6 +332,14 @@ h3{
     animation: 2s javascript forwards;
 }
 @keyframes javascript {
+    0%{width: 0%;}
+    100%{width: 70%;}
+}
+.skills .skill .typescript{
+    width: 0%;
+    animation: 2s sql forwards;
+}
+@keyframes typescript {
     0%{width: 0%;}
     100%{width: 70%;}
 }
@@ -361,7 +376,23 @@ h3{
 }
 @keyframes sql {
     0%{width: 0%;}
-    100%{width: 55%;}
+    100%{width: 60%;}
+}
+.skills .skill .postgresql{
+    width: 0%;
+    animation: 2s sql forwards;
+}
+@keyframes postgresql {
+    0%{width: 0%;}
+    100%{width: 75%;}
+}
+.skills .skill .angular{
+    width: 0%;
+    animation: 2s sql forwards;
+}
+@keyframes angular {
+    0%{width: 0%;}
+    100%{width: 10%;}
 }
 
 /* SECCION PORTFOLIO */
