@@ -410,22 +410,41 @@ export const SeedData = {
     ReactPage: [
         {
             name:   "BoosTiger Shop",
+            key: 43,
+            proyect: "new",
             tools:  [ 
-                        {
-                            key: "43",
-                        },
                         "ReactJs", "JavaScript", "Css", "Html", "Tailwindcss", "Next.js"
                     ],
-            logos:  [   {
-                            key: "4300",
-                        },
-                        "https://res.cloudinary.com/dytlbyofu/image/upload/v1670010692/skills-tools/React-icon_wcrcad.png",
-                        "https://res.cloudinary.com/dytlbyofu/image/upload/v1670010691/skills-tools/js-logo_v6focr.png",
-                        "https://res.cloudinary.com/dytlbyofu/image/upload/v1670010691/skills-tools/css-icon_jusqwv.png",
-                        "https://res.cloudinary.com/dytlbyofu/image/upload/v1670010691/skills-tools/Html-icon_dtsivo.png",
-                    ],
+            logos:  
+                [
+                    "https://res.cloudinary.com/dytlbyofu/image/upload/v1670010692/skills-tools/React-icon_wcrcad.png",
+                    "https://res.cloudinary.com/dytlbyofu/image/upload/v1670010691/skills-tools/js-logo_v6focr.png",
+                    "https://res.cloudinary.com/dytlbyofu/image/upload/v1670010691/skills-tools/css-icon_jusqwv.png",
+                    "https://res.cloudinary.com/dytlbyofu/image/upload/v1670010691/skills-tools/Html-icon_dtsivo.png",
+                    "https://res.cloudinary.com/dytlbyofu/image/upload/v1670021494/skills-tools/TailwindLogo_ot5lzl.png",
+                    "https://res.cloudinary.com/dytlbyofu/image/upload/v1698447263/skills-tools/nextjs_hibjpc.svg"
+                ],
             link:   "https://boostigershop.onrender.com/",
             image:  "https://res.cloudinary.com/dytlbyofu/image/upload/v1698447739/Applications%20made/Boostiger_ryozjp.png",
+        }, 
+        {
+            name:   "Journal App",
+            key: 42,
+            proyect: "new",
+            tools:  [ 
+                        "ReactJs", "JavaScript", "Material UI", "Html", "Firebase"
+                    ],
+            logos:  
+                [
+                    "https://res.cloudinary.com/dytlbyofu/image/upload/v1670010692/skills-tools/React-icon_wcrcad.png",
+                    "https://res.cloudinary.com/dytlbyofu/image/upload/v1670010691/skills-tools/js-logo_v6focr.png",
+                    "https://res.cloudinary.com/dytlbyofu/image/upload/v1698709117/skills-tools/MaterialUI_logo_nvmbsk.png",
+                    "https://res.cloudinary.com/dytlbyofu/image/upload/v1670010691/skills-tools/Html-icon_dtsivo.png",
+                    "https://res.cloudinary.com/dytlbyofu/image/upload/v1698709215/skills-tools/logo-firebase_wvnfcf.png"
+
+                ],
+            link:   "https://journal-app-react-ten.vercel.app/",
+            image:  "https://res.cloudinary.com/dytlbyofu/image/upload/v1698684788/Applications%20made/Journal_App_czry3z.png",
         }, 
         {
             name:   "GiffExpert App",
@@ -580,7 +599,8 @@ export const SeedData = {
             image:  "https://res.cloudinary.com/dytlbyofu/image/upload/v1674004820/Applications%20made/Control-gastos_odg67z.png",
         }, 
         {
-            name:   "CRM",
+            name:   "CRM-Clients",
+            proyect: "new",
             tools:  [ 
                         {
                             key: "41",
