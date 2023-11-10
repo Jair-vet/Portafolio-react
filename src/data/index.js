@@ -464,6 +464,24 @@ export const SeedData = {
             image:  "https://res.cloudinary.com/dytlbyofu/image/upload/v1698447739/Applications%20made/Boostiger_ryozjp.png",
         }, 
         {
+            name:   "UpTask MERN",
+            key: 45,
+            proyect: "new",
+            tools:  [ 
+                        "ReactJs", "JavaScript", "Css", "Html", "Tailwindcss", "MongoDB"
+                    ],
+            logos:  
+                [
+                    "https://res.cloudinary.com/dytlbyofu/image/upload/v1670010692/skills-tools/React-icon_wcrcad.png",
+                    "https://res.cloudinary.com/dytlbyofu/image/upload/v1670010691/skills-tools/js-logo_v6focr.png",
+                    "https://res.cloudinary.com/dytlbyofu/image/upload/v1670010691/skills-tools/css-icon_jusqwv.png",
+                    "https://res.cloudinary.com/dytlbyofu/image/upload/v1670010691/skills-tools/Html-icon_dtsivo.png",
+                    "https://res.cloudinary.com/dytlbyofu/image/upload/v1670021494/skills-tools/TailwindLogo_ot5lzl.png",
+                ],
+            link:   "https://up-task-mern-frontend-943blseel-jair-vet.vercel.app/",
+            image:  "https://res.cloudinary.com/dytlbyofu/image/upload/v1699630928/Applications%20made/UpTask_MERN_ay8fv4.png",
+        }, 
+        {
             name:   "Journal App",
             key: 42,
             proyect: "new",
