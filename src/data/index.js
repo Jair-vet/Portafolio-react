@@ -805,6 +805,44 @@ export const SeedData = {
     ],
     VuePage: [
         {
+            name:   "Guitar App",
+            tools:  [ 
+                        {
+                            key: "49001",
+                        },
+                        "VueJs", "JavaScript", "Css", "Html", "Tailwindcss"
+                    ],
+            logos:  [   {
+                            key: "4800",
+                        },
+                        "https://res.cloudinary.com/dytlbyofu/image/upload/v1670010692/skills-tools/Vue-icon_gwtj8g.png",
+                        "https://res.cloudinary.com/dytlbyofu/image/upload/v1670010691/skills-tools/js-logo_v6focr.png",
+                        "https://res.cloudinary.com/dytlbyofu/image/upload/v1670010691/skills-tools/css-icon_jusqwv.png",
+                        "https://res.cloudinary.com/dytlbyofu/image/upload/v1670010691/skills-tools/Html-icon_dtsivo.png",
+                    ],
+            link:   "https://iridescent-marigold-1a82dd.netlify.app/",
+            image:  "https://res.cloudinary.com/dytlbyofu/image/upload/v1699914851/Applications%20made/Guitar-LA_m25w7d.png",
+        }, 
+        {
+            name:   "Veterinaria App",
+            tools:  [ 
+                        {
+                            key: "49002",
+                        },
+                        "VueJs", "JavaScript", "Css", "Html"
+                    ],
+            logos:  [   {
+                            key: "4800",
+                        },
+                        "https://res.cloudinary.com/dytlbyofu/image/upload/v1670010692/skills-tools/Vue-icon_gwtj8g.png",
+                        "https://res.cloudinary.com/dytlbyofu/image/upload/v1670010691/skills-tools/js-logo_v6focr.png",
+                        "https://res.cloudinary.com/dytlbyofu/image/upload/v1670010691/skills-tools/css-icon_jusqwv.png",
+                        "https://res.cloudinary.com/dytlbyofu/image/upload/v1670010691/skills-tools/Html-icon_dtsivo.png",
+                    ],
+            link:   "https://655f87deced672103738491e--startling-naiad-f496aa.netlify.app/",
+            image:  "https://res.cloudinary.com/dytlbyofu/image/upload/v1700760155/Applications%20made/Veterinaria-vue_td05yk.png",
+        }, 
+        {
             name:   "DayBook App",
             tools:  [ 
                         {
