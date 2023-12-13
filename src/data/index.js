@@ -445,6 +445,26 @@ export const SeedData = {
     ],
     ReactPage: [
         {
+            name:   "ShopVUE App",
+            proyect: "new",
+            tools:  [ 
+                        {
+                            key: "49033",
+                        },
+                        "VueJs", "JavaScript", "Firebase", "Html", "Tailwindcss", "FormKit"
+                    ],
+            logos:  [   {
+                            key: "4800",
+                        },
+                        "https://res.cloudinary.com/dytlbyofu/image/upload/v1670010692/skills-tools/Vue-icon_gwtj8g.png",
+                        "https://res.cloudinary.com/dytlbyofu/image/upload/v1670010691/skills-tools/js-logo_v6focr.png",
+                        "https://res.cloudinary.com/dytlbyofu/image/upload/v1670010691/skills-tools/css-icon_jusqwv.png",
+                        "https://res.cloudinary.com/dytlbyofu/image/upload/v1670010691/skills-tools/Html-icon_dtsivo.png",
+                    ],
+            link:   "https://shop-vue-js.vercel.app/",
+            image:  "https://res.cloudinary.com/dytlbyofu/image/upload/v1702506083/Applications%20made/Pos-Shop-VUE_hxz1p8.png",
+        },
+        {
             name:   "Bienes Raices App",
             proyect: "new",
             tools:  [ 
