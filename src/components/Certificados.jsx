@@ -15,65 +15,65 @@ export const Certificados = () => {
                  md:grid-cols-5 xl:grid-cols-5 h-full w-full p-4 overflow-visible mb-10 mx-auto">
                 {/* <!-- GITHUB --> */}
                 <a href="https://res.cloudinary.com/dytlbyofu/image/upload/v1671472139/Certificates/Git-Hub.Certificate_ofxi7d.pdf" target="blank">
-                    <img src="https://fernando-herrera.com/assets/img/studentdetail/badges/git-github.svg" 
+                    <img src="https://res.cloudinary.com/dytlbyofu/image/upload/v1703806089/Medalla/git-github_ag7nyx.svg" 
                             alt="git-hub"
                             className="w-25"
                     ></img>
                 </a>
                 {/* <!-- JAVASCRIPT --> */}
                 <a href="https://res.cloudinary.com/dytlbyofu/image/upload/v1671472139/Certificates/JavaScript-certificate_ww8ttj.pdf" target="blank">
-                    <img src="https://fernando-herrera.com/assets/img/studentdetail/badges/javascript.svg" 
+                    <img src="https://res.cloudinary.com/dytlbyofu/image/upload/v1703806089/Medalla/javascript_jzy5wj.svg" 
                             alt="Javascript"
                             className="w-25"
                     ></img>
                 </a>
                 {/* <!-- NODEJS --> */}
                 <a href="https://res.cloudinary.com/dytlbyofu/image/upload/v1671472139/Certificates/Node.js_Certificate_pnwjjg.pdf" target="blank">
-                    <img src="https://fernando-herrera.com/assets/img/studentdetail/badges/node-cero-experto.svg" 
+                    <img src="https://res.cloudinary.com/dytlbyofu/image/upload/v1703806091/Medalla/node-cero-experto_aisefo.svg" 
                             alt="Node js"
                             className="w-25"
                     ></img>
                 </a>
                 {/* <!--    TYPESCRIPT --> */}
                 <a href="https://res.cloudinary.com/dytlbyofu/image/upload/v1671472142/Certificates/Typescript_Certificate_agd5a2.pdf" target="blank">
-                    <img src="https://fernando-herrera.com/assets/img/studentdetail/badges/typescript.svg" 
+                    <img src="https://res.cloudinary.com/dytlbyofu/image/upload/v1703806093/Medalla/typescript_fopriv.svg" 
                             alt="TypeScript"
                             className="w-25"
                     ></img>
                 </a>
                 {/* <!-- VUEJS --> */}
                 <a href="https://res.cloudinary.com/dytlbyofu/image/upload/v1671473913/Certificates/VueJs_r1sgjs.pdf" target="blank">
-                    <img src="https://fernando-herrera.com/assets/img/studentdetail/badges/vuejs.svg" 
+                    <img src="https://res.cloudinary.com/dytlbyofu/image/upload/v1703806095/Medalla/vuejs_apqtmz.svg" 
                             alt="Vue js"
                             className="w-[100px]"
                     ></img>
                 </a>
                 {/* <!-- VISUAL STUDIO --> */}
                 <a href="https://res.cloudinary.com/dytlbyofu/image/upload/v1671472141/Certificates/Visual_Studio_Code_Certificate_jrlmnl.pdf" target="blank">
-                    <img src="https://fernando-herrera.com/assets/img/studentdetail/badges/vscode.svg" 
+                    <img src="https://res.cloudinary.com/dytlbyofu/image/upload/v1703806232/Medalla/vscode_ypifph.svg" 
                             alt="Visual Studio"
                             className="w-25"
                     ></img>
                 </a>
                 {/* <!-- PWA --> */}
                 <a href="https://res.cloudinary.com/dytlbyofu/image/upload/v1671472140/Certificates/PWA-Certificate_bnrlzj.pdf" target="blank">
-                    <img src="https://fernando-herrera.com/assets/img/studentdetail/badges/pwa.svg" 
+                    <img src="https://res.cloudinary.com/dytlbyofu/image/upload/v1703806092/Medalla/pwa_ljqugb.svg" 
                             alt="PWA"
                             className="w-25"
                     ></img>
                 </a>
                 {/* <!-- PROGRAMACION --> */}
                 <a href="https://res.cloudinary.com/dytlbyofu/image/upload/v1671472141/Certificates/Programacion_para_principiantes_plw2hs.pdf" target="blank">
-                    <img src="https://fernando-herrera.com/assets/img/studentdetail/badges/progra-101.svg" 
+                    <img src="https://res.cloudinary.com/dytlbyofu/image/upload/v1703806302/Medalla/progra-101_mfbbxm.svg" 
                             alt="PROGRAMACION"
                             className="w-25"
                     ></img>
                 </a>
                 {/* <!-- FLUTTER --> */}
                 <a href="https://res.cloudinary.com/dytlbyofu/image/upload/v1671472143/Certificates/Flutter_Certificate_l7bgib.pdf" target="blank">
-                    <img src="https://fernando-herrera.com/assets/img/studentdetail/badges/flutter.svg" 
+                    <img src="https://res.cloudinary.com/dytlbyofu/image/upload/v1703805834/Medalla/Fluttle_mkxjkp.svg" 
                             alt="Flutter"
-                            className="w-25"
+                            className="w-[90px]"
                     ></img>
                 </a>
                 {/* <!-- TAILWINDCSS --> */}
@@ -95,6 +95,27 @@ export const Certificados = () => {
                     <img src="https://res.cloudinary.com/dytlbyofu/image/upload/v1698447440/skills-tools/react_unkzqc.svg" 
                             alt="React.jsx"
                             className="w-[100px]"
+                    ></img>
+                </a>
+                {/* <!-- Vue.jsx --> */}
+                <a href="https://res.cloudinary.com/dytlbyofu/image/upload/v1703795963/Certificates/vue-JS-pinia_fqvgop.pdf" target="blank">
+                    <img src="https://res.cloudinary.com/dytlbyofu/image/upload/v1703806094/Medalla/vue-ts_ajgsrj.svg" 
+                            alt="Vue.js Juan de la Torre"
+                            className="w-[90px]"
+                    ></img>
+                </a>
+                {/* <!-- Dockers.jsx --> */}
+                <a href="" /* target="blank" */>
+                    <img src="https://res.cloudinary.com/dytlbyofu/image/upload/v1703806088/Medalla/docker_cv84ky.svg" 
+                            alt="Vue.js Juan de la Torre"
+                            className="w-[90px] opacity-10 cursor-not-allowed"
+                    ></img>
+                </a>
+                {/* <!-- Postgresql.jsx --> */}
+                <a href="" /* target="blank" */>
+                    <img src="https://res.cloudinary.com/dytlbyofu/image/upload/v1703806501/Medalla/sql_aelegv.svg" 
+                            alt="Vue.js Juan de la Torre"
+                            className="w-[90px] opacity-10 cursor-not-allowed"
                     ></img>
                 </a>
             </div>

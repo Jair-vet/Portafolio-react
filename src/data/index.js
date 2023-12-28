@@ -445,6 +445,18 @@ export const SeedData = {
     ],
     ReactPage: [
         {
+            name:   "Salon App",
+            proyect: "new",
+            tools:  [ 
+                        {
+                            key: "49034",
+                        },
+                        "VueJs", "JavaScript", "MongoDB",  "Express", "Html", "Tailwindcss", "FormKit"
+                    ],
+            link:   "https://salon-app-frontend.vercel.app",
+            image:  "https://res.cloudinary.com/dytlbyofu/image/upload/v1703804573/Applications%20made/Salon_App-VUE_sgqhtt.png",
+        },
+        {
             name:   "ShopVUE App",
             proyect: "new",
             tools:  [ 
