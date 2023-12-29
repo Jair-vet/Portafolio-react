@@ -1,3 +1,4 @@
+import { NavLink } from "react-router-dom"
 
 export const Certificados = () => {
   return (
@@ -118,6 +119,14 @@ export const Certificados = () => {
                             className="w-[90px] opacity-10 cursor-not-allowed"
                     ></img>
                 </a>
+
+            </div>
+            <div className="mr-12 ml-12 flex justify-center items-center mb-20">
+                <NavLink
+                      className="p-2 w-full text-center rounded-lg text-gray-200 font-bold uppercase bg-emerald-500 duration-300 hover:bg-emerald-600 "
+                      to='/certificates'>
+                        See all Certificates
+                  </NavLink>
             </div>
         </section>
     </>

@@ -12,7 +12,7 @@ export const Titulo = ({ titulo }) => {
               <NavLink 
                 className="nav-selector text-white no-underline p-3 mx-1"
                 to='/inicio'>
-              Regresar
+              Return
               </NavLink>
             </div>
         </header>

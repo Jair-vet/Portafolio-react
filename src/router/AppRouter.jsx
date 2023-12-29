@@ -7,6 +7,7 @@ import { NodePage } from "../pages/NodePage"
 import { React } from "../pages/ReactPage"
 import { TailwindPage } from "../pages/TailwindPage"
 import { VuePage } from "../pages/VuePage"
+import { CertificatesPage } from "../pages/CertificatesPage"
 
 
 export const AppRouter = () => {
@@ -20,6 +21,7 @@ export const AppRouter = () => {
             <Route path="tailwind" element={ <TailwindPage /> } />
             <Route path="css" element={ <CssPage /> } />
             <Route path="node" element={ <NodePage /> } />
+            <Route path="certificates" element={ <CertificatesPage /> } />
 
             <Route path="/" element={ <Navigate  to="/inicio" /> } />
 
