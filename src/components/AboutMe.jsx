@@ -65,7 +65,7 @@ export const AboutMe = () => {
                             <button className="rounded-md">
                                 <a 
                                     className=""
-                                    href="../../src/pdf/CV3.0.1.png"
+                                    href="../../src/pdf/Cv-sp.pdf"
                                     target="_blank">
                                     Descargar CV <i className="fa-solid fa-download"></i>
                                     <span className="overlay"></span>
