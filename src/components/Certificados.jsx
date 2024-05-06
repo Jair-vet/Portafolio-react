@@ -72,7 +72,7 @@ export const Certificados = () => {
                 </a>
                 {/* <!-- FLUTTER --> */}
                 <a href="https://res.cloudinary.com/dytlbyofu/image/upload/v1671472143/Certificates/Flutter_Certificate_l7bgib.pdf" target="blank">
-                    <img src="https://res.cloudinary.com/dytlbyofu/image/upload/v1703805834/Medalla/Fluttle_mkxjkp.svg" 
+                    <img src="https://res.cloudinary.com/dytlbyofu/image/upload/v1715031661/skills-tools/flutter-logo1_ovlvat.svg" 
                             alt="Flutter"
                             className="w-[90px]"
                     ></img>
@@ -101,21 +101,21 @@ export const Certificados = () => {
                 {/* <!-- Vue.jsx --> */}
                 <a href="https://res.cloudinary.com/dytlbyofu/image/upload/v1703795963/Certificates/vue-JS-pinia_fqvgop.pdf" target="blank">
                     <img src="https://res.cloudinary.com/dytlbyofu/image/upload/v1703806094/Medalla/vue-ts_ajgsrj.svg" 
-                            alt="Vue.js Juan de la Torre"
+                            alt=""
                             className="w-[90px]"
                     ></img>
                 </a>
                 {/* <!-- Dockers.jsx --> */}
-                <a href="" /* target="blank" */>
+                <a href="https://res.cloudinary.com/dytlbyofu/image/upload/v1715031255/Certificates/Docker-Certificate_n2heny.pdf" target="blank">
                     <img src="https://res.cloudinary.com/dytlbyofu/image/upload/v1703806088/Medalla/docker_cv84ky.svg" 
-                            alt="Vue.js Juan de la Torre"
-                            className="w-[90px] opacity-10 cursor-not-allowed"
+                            alt=""
+                            className="w-[90px]"
                     ></img>
                 </a>
                 {/* <!-- Postgresql.jsx --> */}
                 <a href="" /* target="blank" */>
                     <img src="https://res.cloudinary.com/dytlbyofu/image/upload/v1703806501/Medalla/sql_aelegv.svg" 
-                            alt="Vue.js Juan de la Torre"
+                            alt=""
                             className="w-[90px] opacity-10 cursor-not-allowed"
                     ></img>
                 </a>

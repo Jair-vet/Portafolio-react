@@ -80,10 +80,17 @@ export const Certificates = {
         },
         {
             id: '12',
-            certificado: 'PWA',
             name: "PWA - Aplicaciones Web Progresivas",
+            certificado: 'PWA',
             link: "https://res.cloudinary.com/dytlbyofu/image/upload/v1671472140/Certificates/PWA-Certificate_bnrlzj.pdf",
             logo: "https://res.cloudinary.com/dytlbyofu/image/upload/v1671472140/Certificates/PWA-Certificate_bnrlzj.jpg"
+        },
+        {
+            id: '13',
+            certificado: 'Dockers',
+            name: "Docker - Guia practica de uso para desarolladores",
+            link: "https://res.cloudinary.com/dytlbyofu/image/upload/v1715031255/Certificates/Docker-Certificate_n2heny.pdf",
+            logo: "https://res.cloudinary.com/dytlbyofu/image/upload/v1703806088/Medalla/docker_cv84ky.svg"
         },
     ]
 }
