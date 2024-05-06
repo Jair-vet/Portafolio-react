@@ -445,6 +445,30 @@ export const SeedData = {
     ],
     ReactPage: [
         {
+            name:   "Administrador Productos",
+            proyect: "new",
+            tools:  [ 
+                        {
+                            key: "49036",
+                        },
+                        "React", "TypeScript", "MongoDB",  "Express", "Html", "Tailwindcss", "Valibot", "Postgres", "NodeJs"
+                    ],
+            link:   "https://rest-api-pern-frontend.vercel.app",
+            image:  "https://res.cloudinary.com/dytlbyofu/image/upload/v1715032456/Applications%20made/Administrador-Productos_wnuch5.png",
+        },
+        {
+            name:   "Contador de Propinas",
+            proyect: "new",
+            tools:  [ 
+                        {
+                            key: "49035",
+                        },
+                        "React", "JavaScript", "Html", "Tailwindcss",
+                    ],
+            link:   "https://65fb08f960829c08a67c04fa--jazzy-mermaid-7f9219.netlify.app",
+            image:  "https://res.cloudinary.com/dytlbyofu/image/upload/v1713913044/Applications%20made/Calculadora_upbshj.png",
+        },
+        {
             name:   "Salon App",
             proyect: "new",
             tools:  [ 
@@ -501,8 +525,11 @@ export const SeedData = {
             key: 43,
             proyect: "new",
             tools:  [ 
-                        "ReactJs", "JavaScript", "Css", "Html", "Tailwindcss", "Next.js"
-                    ],
+                    {
+                        key: "49031",
+                    },
+                    "VueJs", "JavaScript", "Firebase", "Html", "Tailwindcss", "FormKit"
+            ],
             logos:  
                 [
                     "https://res.cloudinary.com/dytlbyofu/image/upload/v1670010692/skills-tools/React-icon_wcrcad.png",
@@ -516,22 +543,41 @@ export const SeedData = {
             image:  "https://res.cloudinary.com/dytlbyofu/image/upload/v1698447739/Applications%20made/Boostiger_ryozjp.png",
         }, 
         {
-            name:   "UpTask MERN",
+            name:   "Veterinaria",
             key: 45,
             proyect: "new",
             tools:  [ 
-                        "ReactJs", "JavaScript", "Css", "Html", "Tailwindcss", "MongoDB"
+                    {
+                        key: "49030",
+                    },
+                    "VueJs", "JavaScript", "Firebase", "Html", "Tailwindcss"
+            ],
+            logos:  
+                [
+                    "https://res.cloudinary.com/dytlbyofu/image/upload/v1670010692/skills-tools/React-icon_wcrcad.png",
+                    "https://res.cloudinary.com/dytlbyofu/image/upload/v1670010691/skills-tools/js-logo_v6focr.png",
+                    "https://res.cloudinary.com/dytlbyofu/image/upload/v1670010691/skills-tools/Html-icon_dtsivo.png",
+                    "https://res.cloudinary.com/dytlbyofu/image/upload/v1670021494/skills-tools/TailwindLogo_ot5lzl.png",
+                ],
+            link:   "https://frolicking-pegasus-8aa278.netlify.app",
+            image:  "https://res.cloudinary.com/dytlbyofu/image/upload/v1713913046/Applications%20made/Veterinaria-ts_z15rob.png",
+        }, 
+        {
+            name:   "Contador Calorias",
+            key: 45,
+            proyect: "new",
+            tools:  [ 
+                        "ReactJs", "TypeScript", "Tailwindcss", "Html"
                     ],
             logos:  
                 [
                     "https://res.cloudinary.com/dytlbyofu/image/upload/v1670010692/skills-tools/React-icon_wcrcad.png",
                     "https://res.cloudinary.com/dytlbyofu/image/upload/v1670010691/skills-tools/js-logo_v6focr.png",
-                    "https://res.cloudinary.com/dytlbyofu/image/upload/v1670010691/skills-tools/css-icon_jusqwv.png",
                     "https://res.cloudinary.com/dytlbyofu/image/upload/v1670010691/skills-tools/Html-icon_dtsivo.png",
                     "https://res.cloudinary.com/dytlbyofu/image/upload/v1670021494/skills-tools/TailwindLogo_ot5lzl.png",
                 ],
-            link:   "https://up-task-mern-frontend-943blseel-jair-vet.vercel.app/",
-            image:  "https://res.cloudinary.com/dytlbyofu/image/upload/v1699630928/Applications%20made/UpTask_MERN_ay8fv4.png",
+            link:   "https://660ddf8b262e61008b557c2e--resonant-palmier-564249.netlify.app/",
+            image:  "https://res.cloudinary.com/dytlbyofu/image/upload/v1713913045/Applications%20made/Contador-calorias_pus9z6.png",
         }, 
         {
             name:   "Journal App",
